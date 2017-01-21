@@ -7,6 +7,7 @@
              xmlns:local="using:Baconit.Panels"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:universalMarkdown="using:UniversalMarkdown"
+             xmlns:common="using:SamplesCommon"
              d:DesignHeight="300"
              d:DesignWidth="400"
              mc:Ignorable="d">
@@ -141,9 +142,16 @@
                 <RowDefinition Height="auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
+            
+            <!-- Neon Blur behinde the user info -->
+            
+            <common:BackDrop BlurAmount="0.5"/>
+            <Rectangle Fill="Black" Opacity="65"/>
 
             <!--  User header page  -->
-            <StackPanel x:Name="ui_titleHeaderContainer" Background="{ThemeResource SystemControlBackgroundAccentBrush}">
+            <StackPanel x:Name="ui_titleHeaderContainer">
+               
+              
                 <!--  Name block  -->
                 <TextBlock x:Name="ui_userName"
                            Margin="12,12,12,0"
@@ -249,12 +257,7 @@
                                         </StackPanel>
                                     </DataTemplate>
                                 </helperControls:EndDetectingListView.HeaderTemplate>
-                                <ListView.ItemContainerTransitions>
-                                    <TransitionCollection>
-                                        <EntranceThemeTransition />
-                                        <AddDeleteThemeTransition />
-                                    </TransitionCollection>
-                                </ListView.ItemContainerTransitions>
+                                
                             </helperControls:EndDetectingListView>
 
                             <!--  Show no posts  -->
@@ -325,12 +328,7 @@
                                     </DataTemplate>
                                 </helperControls:EndDetectingListView.HeaderTemplate>
 
-                                <ListView.ItemContainerTransitions>
-                                    <TransitionCollection>
-                                        <EntranceThemeTransition />
-                                        <AddDeleteThemeTransition />
-                                    </TransitionCollection>
-                                </ListView.ItemContainerTransitions>
+                                
                             </helperControls:EndDetectingListView>
 
                             <!--  Show no comments  -->

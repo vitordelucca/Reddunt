@@ -4,7 +4,8 @@
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
     "Microsoft.Services.Store.SDK": "10.1610.31001",
     "Microsoft.Toolkit.Uwp.UI.Animations": "1.2.0",
-    "MyToolkit.Extended": "2.5.16"
+    "MyToolkit.Extended": "2.5.16",
+    "Win2D.uwp": "1.20.0"
   },
   "frameworks": {
     "uap10.0": {}

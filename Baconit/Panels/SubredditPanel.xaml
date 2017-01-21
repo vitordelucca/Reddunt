@@ -6,6 +6,7 @@
              xmlns:helperControl="using:Baconit.HelperControls"
              xmlns:local="using:Baconit.Panels"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:common="using:SamplesCommon"
              RequestedTheme="Dark"
              d:DesignHeight="600"
              d:DesignWidth="480"
@@ -33,7 +34,7 @@
                         <MenuFlyoutSeparator />
                     </MenuFlyout>
                 </FlyoutBase.AttachedFlyout>
-
+              
                 <StackPanel Grid.Column="0"
                             Margin="0,0,0,0"
                             VerticalAlignment="Top"
@@ -187,7 +188,6 @@
                                    VerticalAlignment="Bottom"
                                    Text="/r/baconit" />
                         </Grid>
-
                         <!--  Sort Menu  -->
                         <StackPanel Grid.Column="1"
                                 HorizontalAlignment="Right"
@@ -196,6 +196,7 @@
                                 Orientation="Horizontal"
                                 Padding="12"
                                 Tapped="Sort_Tapped">
+                           
                             <FlyoutBase.AttachedFlyout>
                                 <MenuFlyout>
                                     <MenuFlyoutItem Click="SortMenuItem_Click" Text="Hot" x:Uid="SMIHot"/>
@@ -276,6 +277,8 @@
                                                     Padding="0,0,8,0"
                                                     SelectionChanged="PostList_SelectionChanged"
                                                     Style="{StaticResource ListViewStyle}">
+    
+                        
                         <ListView.ItemContainerTransitions>
                             <TransitionCollection>
                                 <EntranceThemeTransition/>

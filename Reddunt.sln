@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.25618.0
+VisualStudioVersion = 15.0.26020.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baconit", "Baconit\Baconit.csproj", "{904F56DA-B11C-43DC-9EB9-417501E79437}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaconBackground", "BaconBackground\BaconBackground.csproj", "{C79AC423-5427-4379-AB5B-11F531B5229C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalMarkdown", "UniversalMarkdown\UniversalMarkdown\UniversalMarkdown.csproj", "{9FFC3B68-696A-4342-A2B8-2EADDDEF7FF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamplesCommon", "..\..\..\Documents\WindowsUIDevLabs-master\SamplesCommon\SamplesCommon\SamplesCommon.csproj", "{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +97,22 @@ Global
 		{9FFC3B68-696A-4342-A2B8-2EADDDEF7FF9}.Release|x64.Build.0 = Release|x64
 		{9FFC3B68-696A-4342-A2B8-2EADDDEF7FF9}.Release|x86.ActiveCfg = Release|x86
 		{9FFC3B68-696A-4342-A2B8-2EADDDEF7FF9}.Release|x86.Build.0 = Release|x86
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Debug|ARM.Build.0 = Debug|ARM
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Debug|x64.ActiveCfg = Debug|x64
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Debug|x64.Build.0 = Debug|x64
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Debug|x86.ActiveCfg = Debug|x86
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Debug|x86.Build.0 = Debug|x86
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Release|ARM.ActiveCfg = Release|ARM
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Release|ARM.Build.0 = Release|ARM
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Release|x64.ActiveCfg = Release|x64
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Release|x64.Build.0 = Release|x64
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Release|x86.ActiveCfg = Release|x86
+		{0B6A4830-D1FF-4018-BAA2-7257EB4579FE}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

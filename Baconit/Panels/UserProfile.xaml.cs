@@ -3,6 +3,7 @@ using BaconBackend.DataObjects;
 using BaconBackend.Helpers;
 using Baconit.Interfaces;
 using Baconit.Panels.FlipView;
+using Microsoft.Graphics.Canvas.Effects;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,11 +14,13 @@ using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI;
+using Windows.UI.Composition;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Hosting;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
@@ -86,6 +89,7 @@ namespace Baconit.Panels
             ui_postList.ItemsSource = m_postList;
             ui_commentList.ItemsSource = m_commentList;
         }
+
 
         public void PanelSetup(IPanelHost host, Dictionary<string, object> arguments)
         {

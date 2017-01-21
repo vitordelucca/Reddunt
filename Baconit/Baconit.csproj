@@ -11,14 +11,14 @@
     <AssemblyName>Baconit</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.15003.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.14393.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>Baconit_TemporaryKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>B2C7B6816BAB742CC877BB9EA71A635765AC274D</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>BD5ED6048168A84894B9FFE5751C6E07187D288D</PackageCertificateThumbprint>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
@@ -324,6 +324,7 @@
     <None Include="Package.StoreAssociation.xml">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="Assets\Noise.jpg" />
     <Content Include="Assets\Settings\AboutRedduntIcon.png" />
     <Content Include="Assets\Welcome\MarilynImageMedium.jpg" />
     <Content Include="Assets\Welcome\QuinnImageMedium.jpg" />
@@ -507,6 +508,10 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Documents\WindowsUIDevLabs-master\SamplesCommon\SamplesCommon\SamplesCommon.csproj">
+      <Project>{0b6a4830-d1ff-4018-baa2-7257eb4579fe}</Project>
+      <Name>SamplesCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BaconBackend\BaconBackend.csproj">
       <Project>{760d26fa-938b-4b0a-9c87-915adaed244d}</Project>
       <Name>BaconBackend</Name>
@@ -530,7 +535,7 @@
     <SDKReference Include="Microsoft.VCLibs, Version=14.0">
       <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
     </SDKReference>
-    <SDKReference Include="WindowsMobile, Version=10.0.14393.0">
+    <SDKReference Include="WindowsMobile, Version=10.0.15003.0">
       <Name>Windows Mobile Extensions for the UWP</Name>
     </SDKReference>
   </ItemGroup>
