@@ -665,7 +665,7 @@ Głównym celem jest optymalizacja, a także świetne funkcje związane z system
     <value>Yes</value>
   </data>
   <data name="LastUpdate.Text" xml:space="preserve">
-    <value>Ustatna Aktualizacja:</value>
+    <value>Ostatna Aktualizacja:</value>
   </data>
   <data name="LoadingC.Text" xml:space="preserve">
     <value>Ładowanie komentarzy</value>
@@ -788,7 +788,7 @@ Głównym celem jest optymalizacja, a także świetne funkcje związane z system
     <value>Aktualizacja skrzynki odbiorczej</value>
   </data>
   <data name="LastUpdateCode.Text" xml:space="preserve">
-    <value>Ustatna aktualizacja:</value>
+    <value>Ostatnia aktualizacja:</value>
   </data>
   <data name="LockscreendesktopwallpaperupdatingCode.Text" xml:space="preserve">
     <value>Zablokuj ekran i aktualizacja tapet</value>
