@@ -665,7 +665,7 @@ Głównym celem jest optymalizacja, a także świetne funkcje związane z system
     <value>Yes</value>
   </data>
   <data name="LastUpdate.Text" xml:space="preserve">
-    <value>Ostatna Aktualizacja:</value>
+    <value>Ostatnia Aktualizacja:</value>
   </data>
   <data name="LoadingC.Text" xml:space="preserve">
     <value>Ładowanie komentarzy</value>
