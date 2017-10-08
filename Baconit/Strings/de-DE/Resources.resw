@@ -238,7 +238,7 @@
     <value>0 Tage alt</value>
   </data>
   <data name="AllTime.Text" xml:space="preserve">
-    <value>Allerzeiten</value>
+    <value>Aller Zeiten</value>
   </data>
   <data name="CakeDayTB.Text" xml:space="preserve">
     <value>Kuchentag!</value>
@@ -424,8 +424,7 @@
     <value>Hier berühren, um die ganze Diskussion anzuzeigen</value>
   </data>
   <data name="AboutDescription.Text" xml:space="preserve">
-    <value>Reddunt ist ein wunderschöner Reddit® Client basierend auf Baconit, welche eine Open-Source App ist. Es ist auf allen Windows 10 Geräten verfügbar. 
-Der Hauptfokus liegt auf Optimierung und auf großartigen Windows 10 fokusierten Eigenschaften!</value>
+    <value>Reddunt ist ein wunderschöner Reddit® Client basierend auf Baconit, welche eine Open-Source App ist. Es ist auf allen Windows 10 Geräten verfügbar. Der Hauptfokus liegt auf Optimierung und auf großartigen Windows 10 fokusierten Eigenschaften!</value>
   </data>
   <data name="AddMessagesTB.Text" xml:space="preserve">
     <value>Füge Nachricht still zum Benachritigungs-Center hinzu</value>
@@ -452,7 +451,7 @@ Der Hauptfokus liegt auf Optimierung und auf großartigen Windows 10 fokusierten
     <value>Hintergrund Posteingang wird aktualisiert</value>
   </data>
   <data name="CAllTimeB.Content" xml:space="preserve">
-    <value>Allerzeiten</value>
+    <value>Aller Zeiten</value>
   </data>
   <data name="CancelCT.Content" xml:space="preserve">
     <value>Abbrechen</value>
@@ -461,7 +460,7 @@ Der Hauptfokus liegt auf Optimierung und auf großartigen Windows 10 fokusierten
     <value>Beste</value>
   </data>
   <data name="CBIalltime.Content" xml:space="preserve">
-    <value>allerzeiten</value>
+    <value>aller Zeiten</value>
   </data>
   <data name="CBIcontro.Content" xml:space="preserve">
     <value>kontrovers</value>
@@ -701,7 +700,7 @@ Der Hauptfokus liegt auf Optimierung und auf großartigen Windows 10 fokusierten
     <value>Web-Filter</value>
   </data>
   <data name="AllTimeCode.Text" xml:space="preserve">
-    <value>Allerzeiten</value>
+    <value>Aller Zeiten</value>
   </data>
   <data name="ControCode.Text" xml:space="preserve">
     <value>Kontrovers</value>
