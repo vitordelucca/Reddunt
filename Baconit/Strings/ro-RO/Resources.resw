@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accountHeader.Text" xml:space="preserve">
+    <value>Cont</value>
+  </data>
+  <data name="AppBarMenuButton.Label" xml:space="preserve">
+    <value>Meniu</value>
+  </data>
+  <data name="contentRootFM.Text" xml:space="preserve">
+    <value>Salvează imaginea</value>
+  </data>
+  <data name="EnjoyingRedduntTB" xml:space="preserve">
+    <value>Îți place Reddunt? Am aprecia enorm dacă ne-ai lăsa o recenzie. Mulțumim pentru ajutorul acordat proiectului!</value>
+  </data>
+  <data name="genericTextHeaderTB.Text" xml:space="preserve">
+    <value>A apărut o eroare la încărcarea mesajului.</value>
+  </data>
+  <data name="genericTextSubTB.Text" xml:space="preserve">
+    <value>Apasă oriunde pentru a deschide în Edge</value>
+  </data>
+  <data name="headerText.Text" xml:space="preserve">
+    <value>Această postare se leagă de un subreddit</value>
+  </data>
+  <data name="headerTextAppsTB.Text" xml:space="preserve">
+    <value>Această postare se leagă de o Aplicație Windows</value>
+  </data>
+  <data name="inboxGridTB.Text" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="LoadingCommentsTB.Text" xml:space="preserve">
+    <value>Se încarcă comentariile</value>
+  </data>
+  <data name="loadingTextTB.Text" xml:space="preserve">
+    <value>Încărcare...</value>
+  </data>
+  <data name="LoginProgressText.Text" xml:space="preserve">
+    <value>Autentificare în curs</value>
+  </data>
+  <data name="MessageInboxTB.Text" xml:space="preserve">
+    <value>Mesaje primite</value>
+  </data>
+  <data name="minorText.Text" xml:space="preserve">
+    <value>Apasă oriunde pentru a vedea /r/baconit</value>
+  </data>
+  <data name="minorTextAppsTB.Text" xml:space="preserve">
+    <value>Apasă oriunde pentru a deschide magazinul</value>
+  </data>
+  <data name="NoResultsTB.Text" xml:space="preserve">
+    <value>niciun rezultat</value>
+  </data>
+  <data name="nsfwBlockRootGridTB1" xml:space="preserve">
+    <value>Această postare este NSFW</value>
+  </data>
+  <data name="nsfwBlockRootGridTB2.Text" xml:space="preserve">
+    <value>Apasă oriunde pentru a vedea</value>
+  </data>
+  <data name="profileGridTB.Text" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="progressTextTB.Text" xml:space="preserve">
+    <value>Încărcare</value>
+  </data>
+  <data name="ProTip.Text" xml:space="preserve">
+    <value>Pro Tip</value>
+  </data>
+  <data name="QuickReviewCT.Content" xml:space="preserve">
+    <value>lasă o recenzie rapidă</value>
+  </data>
+  <data name="quickSearchBox.PlaceholderText" xml:space="preserve">
+    <value>Caută orice</value>
+  </data>
+  <data name="RedduntAccountTB.Text" xml:space="preserve">
+    <value>Deblocheaza mai mult din Reddunt adăugând un cont. Conturile Reddit sunt anonime, simple și gratuite - și Reddunt le va menține așa.</value>
+  </data>
+  <data name="SearchASUPTBS.PlaceholderText" xml:space="preserve">
+    <value>Caută după orice: subreddituri, utilizatori, postări, etc.</value>
+  </data>
+  <data name="SearchForTB.Text" xml:space="preserve">
+    <value>Caută după:</value>
+  </data>
+  <data name="SearchTBs.Text" xml:space="preserve">
+    <value>Caută</value>
+  </data>
+  <data name="searchTextBlock.Text" xml:space="preserve">
+    <value>Caută</value>
+  </data>
+  <data name="SendingCommentTB.Text" xml:space="preserve">
+    <value>Trimitere comentariu...</value>
+  </data>
+  <data name="settingsGridTB.Text" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="ShareHeartTB.Text" xml:space="preserve">
+    <value>Distribuie ❤</value>
+  </data>
+  <data name="ShowMoreTB.Text" xml:space="preserve">
+    <value>arată mai mult</value>
+  </data>
+  <data name="signInGridTB.Text" xml:space="preserve">
+    <value>Autentificare</value>
+  </data>
+  <data name="subscribersTextBlock.Text" xml:space="preserve">
+    <value>73,000 subscriberi</value>
+  </data>
+  <data name="textBlock.Text" xml:space="preserve">
+    <value>Spoiler!</value>
+  </data>
+  <data name="TrendingSubreddits.Text" xml:space="preserve">
+    <value>Subreddituri populare</value>
+  </data>
+  <data name="TryItTip.Text" xml:space="preserve">
+    <value>Încearcă acum!</value>
+  </data>
+  <data name="ViewCommentTip.Text" xml:space="preserve">
+    <value>Pentru a vedea comentariile pentru această postare, sau oricare alta, pune cursorul sau degetul pe titlu si dă scroll.</value>
+  </data>
+  <data name="WelcomeText.Text" xml:space="preserve">
+    <value>Bun venit Quinbd</value>
+  </data>
+  <data name="AccountAgeTB.Text" xml:space="preserve">
+    <value>0 zile vechime</value>
+  </data>
+  <data name="AllTime.Text" xml:space="preserve">
+    <value>De oricând</value>
+  </data>
+  <data name="CakeDayTB.Text" xml:space="preserve">
+    <value>Ziua prăjiturii!</value>
+  </data>
+  <data name="CommentSort.Text" xml:space="preserve">
+    <value>Sortează:</value>
+  </data>
+  <data name="CommentSortFMIBest.Text" xml:space="preserve">
+    <value>Cele mai bune</value>
+  </data>
+  <data name="CommentSortFMIContro.Text" xml:space="preserve">
+    <value>Controversat</value>
+  </data>
+  <data name="CommentSortFMINew.Text" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="CommentSortFMITop.Text" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="CommentSortNew.Text" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="CopyLinkMFITB.Text" xml:space="preserve">
+    <value>Copiază legătura</value>
+  </data>
+  <data name="CopyPermaLinkMFITB.Text" xml:space="preserve">
+    <value>Copiază permalink</value>
+  </data>
+  <data name="FormattedPreviewTB.Text" xml:space="preserve">
+    <value>Previzualizare formatată</value>
+  </data>
+  <data name="GildedTB.Text" xml:space="preserve">
+    <value>Aurit</value>
+  </data>
+  <data name="GoToUserTB.Text" xml:space="preserve">
+    <value>Mergi la utilizator</value>
+  </data>
+  <data name="HeaderSubmitPost.Text" xml:space="preserve">
+    <value>TRIMITE POSTAREA</value>
+  </data>
+  <data name="NoPostHereTB.Text" xml:space="preserve">
+    <value>Nu sunt postări aici.</value>
+  </data>
+  <data name="NoSubmittedComments.Text" xml:space="preserve">
+    <value>Niciun comentariu trimis</value>
+  </data>
+  <data name="NoSubmittedPostsTB.Text" xml:space="preserve">
+    <value>Nicio postare trimisă</value>
+  </data>
+  <data name="PastDay.Text" xml:space="preserve">
+    <value>Ultima zi</value>
+  </data>
+  <data name="PastHour.Text" xml:space="preserve">
+    <value>Ultima oră</value>
+  </data>
+  <data name="PastMonth.Text" xml:space="preserve">
+    <value>Ultima lună</value>
+  </data>
+  <data name="PastWeek.Text" xml:space="preserve">
+    <value>Ultima săptămână</value>
+  </data>
+  <data name="PastYear.Text" xml:space="preserve">
+    <value>Ultimul an</value>
+  </data>
+  <data name="PostSortFMIBest.Text" xml:space="preserve">
+    <value>Cele mai bune</value>
+  </data>
+  <data name="PostSortFMIContnro.Text" xml:space="preserve">
+    <value>Controversat</value>
+  </data>
+  <data name="PostSortFMINew.Text" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="PostSortFMITop.Text" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="PostSortTextTB.Text" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="SelfTextTB.Text" xml:space="preserve">
+    <value>Text propriu</value>
+  </data>
+  <data name="SettingsTB.Text" xml:space="preserve">
+    <value>SETĂRI</value>
+  </data>
+  <data name="SMIContro.Text" xml:space="preserve">
+    <value>Controversat</value>
+  </data>
+  <data name="SMIHot.Text" xml:space="preserve">
+    <value>Fierbinte</value>
+  </data>
+  <data name="SMINew.Text" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="SMIRising.Text" xml:space="preserve">
+    <value>În creștere</value>
+  </data>
+  <data name="SMITop.Text" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="SortDTB.Text" xml:space="preserve">
+    <value>Sortare:</value>
+  </data>
+  <data name="SortPostTB.Text" xml:space="preserve">
+    <value>Sortare:</value>
+  </data>
+  <data name="SortTextHotTB.Text" xml:space="preserve">
+    <value>Fierbinte</value>
+  </data>
+  <data name="SortTimeTB.Text" xml:space="preserve">
+    <value>Ultima săptămână</value>
+  </data>
+  <data name="StickyTB.Text" xml:space="preserve">
+    <value>Fixat</value>
+  </data>
+  <data name="StickyUserTB.Text" xml:space="preserve">
+    <value>Fixat</value>
+  </data>
+  <data name="SubtmitPostTitleTB.Text" xml:space="preserve">
+    <value>Titlu</value>
+  </data>
+  <data name="TimeTB.Text" xml:space="preserve">
+    <value>Timp:</value>
+  </data>
+  <data name="ViewContextTB.Text" xml:space="preserve">
+    <value>vezi în context</value>
+  </data>
+  <data name="CLinkFMI.Text" xml:space="preserve">
+    <value>Copiază link</value>
+  </data>
+  <data name="CMBest.Text" xml:space="preserve">
+    <value>Cele mai bune</value>
+  </data>
+  <data name="CMContro.Text" xml:space="preserve">
+    <value>Controversat</value>
+  </data>
+  <data name="CMNew.Text" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="CMOld.Text" xml:space="preserve">
+    <value>Vechi</value>
+  </data>
+  <data name="CMQA.Text" xml:space="preserve">
+    <value>Q&amp;A</value>
+  </data>
+  <data name="CMTop.Text" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="collapseTBN.Text" xml:space="preserve">
+    <value>collapse</value>
+  </data>
+  <data name="CopyPerFMI.Text" xml:space="preserve">
+    <value>Copiază permalink</value>
+  </data>
+  <data name="CountTB.Text" xml:space="preserve">
+    <value>Număr:</value>
+  </data>
+  <data name="CPermaFMI.Text" xml:space="preserve">
+    <value>Copiază permalink</value>
+  </data>
+  <data name="DeletePostClick.Text" xml:space="preserve">
+    <value>Ștergere postare</value>
+  </data>
+  <data name="EditPostClick.Text" xml:space="preserve">
+    <value>Editare postare</value>
+  </data>
+  <data name="MoreTB.Text" xml:space="preserve">
+    <value>mai mult</value>
+  </data>
+  <data name="RunGilded.Text" xml:space="preserve">
+    <value>aurit</value>
+  </data>
+  <data name="RunSticky.Text" xml:space="preserve">
+    <value>fixat</value>
+  </data>
+  <data name="ShareCommentFMI.Text" xml:space="preserve">
+    <value>Distribuie comentariu</value>
+  </data>
+  <data name="SharePostFMI.Text" xml:space="preserve">
+    <value>Distribuie postarea</value>
+  </data>
+  <data name="TapViewEntire.Text" xml:space="preserve">
+    <value>Apasă aici pentru a vedea întreg firul</value>
+  </data>
+  <data name="AboutDescription.Text" xml:space="preserve">
+    <value>Reddunt este un client Reddit® magnific, bazat pe Baconit, o aplicație open source. Este disponibilă pe toate dispozitivele cu Windows 10.
+Accentul principal este pus pe optimizare, precum și pe caracteristicile specifice Windows 10!</value>
+  </data>
+  <data name="AddMessagesTB.Text" xml:space="preserve">
+    <value>Adaugă un mesaj silențios la centrul de notificări</value>
+  </data>
+  <data name="AlwaysCombo.Content" xml:space="preserve">
+    <value>Mereu</value>
+  </data>
+  <data name="AuthorFilter.PlaceholderText" xml:space="preserve">
+    <value>Filtru autor</value>
+  </data>
+  <data name="AutoTB.Text" xml:space="preserve">
+    <value>Minimizare automată a titlului poveștii în comentarii</value>
+  </data>
+  <data name="AutoUpdateTB.Text" xml:space="preserve">
+    <value>Actualizare automată a imaginii ecranului de blocare</value>
+  </data>
+  <data name="AutoUpdateWTB.Text" xml:space="preserve">
+    <value>Actualizare automată a imaginii de fundal</value>
+  </data>
+  <data name="BackgroundInboxCTB.Text" xml:space="preserve">
+    <value>Actualizarea inbox-ului de bază</value>
+  </data>
+  <data name="BackgroundInboxTB.Text" xml:space="preserve">
+    <value>Actualizarea inbox-ului de bază</value>
+  </data>
+  <data name="CAllTimeB.Content" xml:space="preserve">
+    <value>Oricând</value>
+  </data>
+  <data name="CancelCT.Content" xml:space="preserve">
+    <value>Anulare</value>
+  </data>
+  <data name="CBestCB.Content" xml:space="preserve">
+    <value>Cele mai bune</value>
+  </data>
+  <data name="CBIalltime.Content" xml:space="preserve">
+    <value>oricând</value>
+  </data>
+  <data name="CBIcontro.Content" xml:space="preserve">
+    <value>controversat</value>
+  </data>
+  <data name="CBIhot.Content" xml:space="preserve">
+    <value>fierbine</value>
+  </data>
+  <data name="CBInew.Content" xml:space="preserve">
+    <value>fierbine</value>
+  </data>
+  <data name="CBIpday.Content" xml:space="preserve">
+    <value>ultima zi</value>
+  </data>
+  <data name="CBIphour.Content" xml:space="preserve">
+    <value>ultima oră</value>
+  </data>
+  <data name="CBIpmonth.Content" xml:space="preserve">
+    <value>ultima lună</value>
+  </data>
+  <data name="CBIpweek.Content" xml:space="preserve">
+    <value>ultima săptămână</value>
+  </data>
+  <data name="CBIpyear.Content" xml:space="preserve">
+    <value>ultimul an</value>
+  </data>
+  <data name="CBIrising.Content" xml:space="preserve">
+    <value>în creștere</value>
+  </data>
+  <data name="CBItop.Content" xml:space="preserve">
+    <value>top</value>
+  </data>
+  <data name="CCommentsCBB.Content" xml:space="preserve">
+    <value>Comentarii</value>
+  </data>
+  <data name="CControCB.Content" xml:space="preserve">
+    <value>Controversat</value>
+  </data>
+  <data name="CheckUnder.Text" xml:space="preserve">
+    <value>Vezi codul sursă</value>
+  </data>
+  <data name="CNewCB.Content" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="COldCB.Content" xml:space="preserve">
+    <value>Vechi</value>
+  </data>
+  <data name="CPastDayB.Content" xml:space="preserve">
+    <value>Ultima zi</value>
+  </data>
+  <data name="CPastHourB.Content" xml:space="preserve">
+    <value>Ultima oră</value>
+  </data>
+  <data name="CPastMonthB.Content" xml:space="preserve">
+    <value>Ultima lună</value>
+  </data>
+  <data name="CPastWeekB.Content" xml:space="preserve">
+    <value>Ultima săptămână</value>
+  </data>
+  <data name="CPastYearB.Content" xml:space="preserve">
+    <value>Ultimul an</value>
+  </data>
+  <data name="CQACB.Content" xml:space="preserve">
+    <value>Q&amp;A</value>
+  </data>
+  <data name="CreateAccountCT.Content" xml:space="preserve">
+    <value>Creare cont</value>
+  </data>
+  <data name="CSettings.Text" xml:space="preserve">
+    <value>Setări comentarii</value>
+  </data>
+  <data name="CTopCB.Content" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="DevSettings.Text" xml:space="preserve">
+    <value>Setări dezvoltator</value>
+  </data>
+  <data name="DisableCombo.Content" xml:space="preserve">
+    <value>Dezactivare pe subreddit; se resetează când aplicația e închisă</value>
+  </data>
+  <data name="DisablePostLoad.Text" xml:space="preserve">
+    <value>Nu încărca conținutul postării până când nu este apăsat</value>
+  </data>
+  <data name="EverythingCB.Content" xml:space="preserve">
+    <value>Totul</value>
+  </data>
+  <data name="FatalException.Text" xml:space="preserve">
+    <value>Nu lăsa excepțiile fatale să închidă aplicația, raportează excepțiile în locul blocării aplicației. (acest lucru va lăsa aplicația într-o stare instabilă)</value>
+  </data>
+  <data name="FlipViewS.Text" xml:space="preserve">
+    <value>OGLINDEȘTE SETĂRILE DE VIZUALIZARE</value>
+  </data>
+  <data name="fullpost.Text" xml:space="preserve">
+    <value>Arată titlurile întregi ale postării</value>
+  </data>
+  <data name="HeaderAboutTB.Text" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="HowMessagesTB.Text" xml:space="preserve">
+    <value>Modul în care mesajele apar în centrul de notificări</value>
+  </data>
+  <data name="ImageUpdateFTB.Text" xml:space="preserve">
+    <value>Frecvența de actualizare a imaginilor</value>
+  </data>
+  <data name="IsNNSFW.Content" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="IsNSFW.Content" xml:space="preserve">
+    <value>Este NSFW?</value>
+  </data>
+  <data name="IsYNSFW.Content" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="LastUpdate.Text" xml:space="preserve">
+    <value>Ultima actualizare:</value>
+  </data>
+  <data name="LoadingC.Text" xml:space="preserve">
+    <value>Încărcare comentarii</value>
+  </data>
+  <data name="LockScreenTB.Text" xml:space="preserve">
+    <value>Sursa imaginii ecranului de blocare</value>
+  </data>
+  <data name="LoginCT.Content" xml:space="preserve">
+    <value>Logare</value>
+  </data>
+  <data name="MemoryPressure.Text" xml:space="preserve">
+    <value>Pagini curăâate pentru economisirea energiei: 0</value>
+  </data>
+  <data name="MemOverlay.Text" xml:space="preserve">
+    <value>Suprapune utilizarea de memorie a aplicației</value>
+  </data>
+  <data name="MSBand1.Text" xml:space="preserve">
+    <value>Reddunt poate integra Microsoft Band v1 sau v2 pentru a actualiza imaginea de fundal, pentru a adăuga un titlu Reddunt, sau pentru a trimite notificări instante pentru mesajele noi.</value>
+  </data>
+  <data name="MSBand2.Text" xml:space="preserve">
+    <value>Nicio bandă găsită, asigură-te că banda este pornită si conectată.</value>
+  </data>
+  <data name="MSBand3.Text" xml:space="preserve">
+    <value>Imagine de fundal</value>
+  </data>
+  <data name="MSBand4.Text" xml:space="preserve">
+    <value>Actualizare automată a imaginii de fundal a benzii</value>
+  </data>
+  <data name="MSBand5.Text" xml:space="preserve">
+    <value>Sursa imaginii de fundal a benzii</value>
+  </data>
+  <data name="MSBand6.Text" xml:space="preserve">
+    <value>Tile &amp; Inbox</value>
+  </data>
+  <data name="MSBand7.Text" xml:space="preserve">
+    <value>Actualizarea inbox-ului de bază trebuie activată pentru a folosi această funcționalitate.</value>
+  </data>
+  <data name="NeverCombo.Content" xml:space="preserve">
+    <value>Niciodată</value>
+  </data>
+  <data name="NNewCB.Content" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="NSFWB.Text" xml:space="preserve">
+    <value>Blocare NSFW</value>
+  </data>
+  <data name="PinToStart.Content" xml:space="preserve">
+    <value>Adaugă scurtătură la ecranul de pornire</value>
+  </data>
+  <data name="PostsCB.Content" xml:space="preserve">
+    <value>Postări</value>
+  </data>
+  <data name="PreloadComments.Text" xml:space="preserve">
+    <value>Comentarii preîncărcate</value>
+  </data>
+  <data name="PreloadPost.Text" xml:space="preserve">
+    <value>Preîncarcă conținutul postărilor viitoare</value>
+  </data>
+  <data name="RateUnder.Text" xml:space="preserve">
+    <value>Evaluați și revizuiți în Magazinul Windows</value>
+  </data>
+  <data name="RelevanceCB.Content" xml:space="preserve">
+    <value>Relevanță</value>
+  </data>
+  <data name="ResetReview.Content" xml:space="preserve">
+    <value>Resetează contorul de rată și revizuire</value>
+  </data>
+  <data name="SearchThisSubReddit" xml:space="preserve">
+    <value>Caută în acest subreddit</value>
+  </data>
+  <data name="SelfFilter.PlaceholderText" xml:space="preserve">
+    <value>Filtru de text propriu</value>
+  </data>
+  <data name="SelfPostCB.Content" xml:space="preserve">
+    <value>Este o postare proprie?</value>
+  </data>
+  <data name="SelfPostNCB.Content" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="SelfPostYCB.Content" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="SendCT.Content" xml:space="preserve">
+    <value>Trimite</value>
+  </data>
+  <data name="ShowUITB.Text" xml:space="preserve">
+    <value>Afișează sfaturile ajutătoare pentru UI</value>
+  </data>
+  <data name="SubFilter.PlaceholderText" xml:space="preserve">
+    <value>Filtru subreddit</value>
+  </data>
+  <data name="SubmitNewPost.Content" xml:space="preserve">
+    <value>Trimite postare nouă</value>
+  </data>
+  <data name="SubredditsCB.Content" xml:space="preserve">
+    <value>Subreddituri</value>
+  </data>
+  <data name="SubscribeCT.Content" xml:space="preserve">
+    <value>Abonează-te</value>
+  </data>
+  <data name="SVS1.Text" xml:space="preserve">
+    <value>Setări de vizualizare a subreddit-urilor</value>
+  </data>
+  <data name="SVS2.Text" xml:space="preserve">
+    <value>Subreddit-ul de afișat când aplicația se deschide</value>
+  </data>
+  <data name="SystemState.Text" xml:space="preserve">
+    <value>Statut sistem:</value>
+  </data>
+  <data name="TTopCB.Content" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="UpdatingLockTB.Text" xml:space="preserve">
+    <value>Actualizare imagine de fundal</value>
+  </data>
+  <data name="UsersCB.Content" xml:space="preserve">
+    <value>Utilizatori</value>
+  </data>
+  <data name="WallITB.Text" xml:space="preserve">
+    <value>Sursa imaginii de fundal</value>
+  </data>
+  <data name="WebFilter.PlaceholderText" xml:space="preserve">
+    <value>Filtru Web</value>
+  </data>
+  <data name="AllTimeCode.Text" xml:space="preserve">
+    <value>Oricând</value>
+  </data>
+  <data name="ControCode.Text" xml:space="preserve">
+    <value>Controversat</value>
+  </data>
+  <data name="HotCode.Text" xml:space="preserve">
+    <value>Fierbinte</value>
+  </data>
+  <data name="NewCode.Text" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="PastDayCode.Text" xml:space="preserve">
+    <value>Ultima zi</value>
+  </data>
+  <data name="PastHourCode.Text" xml:space="preserve">
+    <value>Ultima oră</value>
+  </data>
+  <data name="PastHWeek.Text" xml:space="preserve">
+    <value>Ultima săptămână</value>
+  </data>
+  <data name="PastMonthCode.Text" xml:space="preserve">
+    <value>Ultima lună</value>
+  </data>
+  <data name="PastWeekCode.Text" xml:space="preserve">
+    <value>Ultima săptămână</value>
+  </data>
+  <data name="PastYearCode.Text" xml:space="preserve">
+    <value>Ultimul an</value>
+  </data>
+  <data name="RisingCode.Text" xml:space="preserve">
+    <value>În creștere</value>
+  </data>
+  <data name="TopCode.Text" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="AboutSCode.Text" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="AllowedCode.Text" xml:space="preserve">
+    <value>Permis</value>
+  </data>
+  <data name="CommentsSCode.Text" xml:space="preserve">
+    <value>Comnetarii</value>
+  </data>
+  <data name="DefaultcountTB.Text" xml:space="preserve">
+    <value>Contor implicit</value>
+  </data>
+  <data name="DefaultSortsTB.Text" xml:space="preserve">
+    <value>Sortare implicită</value>
+  </data>
+  <data name="DefaultsortTB.Text" xml:space="preserve">
+    <value>Sortare implicită</value>
+  </data>
+  <data name="DefaulttimesortTB.Text" xml:space="preserve">
+    <value>Sortare după timp implicită</value>
+  </data>
+  <data name="DeniedCode.Text" xml:space="preserve">
+    <value>Interzis</value>
+  </data>
+  <data name="FlipViewCode.Text" xml:space="preserve">
+    <value>Vizualizare oglindită</value>
+  </data>
+  <data name="InboxbackgroundupdatingCode.Text" xml:space="preserve">
+    <value>Actualizarea inbox-ului de bază</value>
+  </data>
+  <data name="LastUpdateCode.Text" xml:space="preserve">
+    <value>Ultima actualizare</value>
+  </data>
+  <data name="LockscreendesktopwallpaperupdatingCode.Text" xml:space="preserve">
+    <value>Actualizarea ecranului de blocare și a imaginii de fundal</value>
+  </data>
+  <data name="NeverCode.Text" xml:space="preserve">
+    <value>Niciodata</value>
+  </data>
+  <data name="PrivacyPolicyCode.Text" xml:space="preserve">
+    <value>Politica de confidențialitate</value>
+  </data>
+  <data name="ReddunTileInboxTB.Text" xml:space="preserve">
+    <value>Adaugă un titlu Reddunt și sincronizează căsuța mea de mesaje</value>
+  </data>
+  <data name="ShowEachMessageCBI.Content" xml:space="preserve">
+    <value>Arată fiecare mesaj</value>
+  </data>
+  <data name="ShowOneTotalUnreadCBI.Content" xml:space="preserve">
+    <value>Arată numărul total de mesaje necitite</value>
+  </data>
+  <data name="SystemStateCode.Text" xml:space="preserve">
+    <value>Status sistem</value>
+  </data>
+  <data name="TermsandConditionsCode.Text" xml:space="preserve">
+    <value>Termeni și condiții</value>
+  </data>
+  <data name="AddButton.Label" xml:space="preserve">
+    <value>Adaugă</value>
+  </data>
+  <data name="RefreshButton.Label" xml:space="preserve">
+    <value>Actualizează</value>
+  </data>
+  <data name="AccountCode.Text" xml:space="preserve">
+    <value>Cont</value>
+  </data>
+  <data name="DeleteComment" xml:space="preserve">
+    <value>șterge  |</value>
+  </data>
+  <data name="EditComment" xml:space="preserve">
+    <value>editează</value>
+  </data>
+  <data name="HasGoldCode.MinorAccentText" xml:space="preserve">
+    <value>Are aur</value>
+  </data>
+  <data name="HidePost" xml:space="preserve">
+    <value>Ascunde postare</value>
+  </data>
+  <data name="MarkAsReadCode.Text" xml:space="preserve">
+    <value>marchează ca citit</value>
+  </data>
+  <data name="MarkAsUnreadCode.Text" xml:space="preserve">
+    <value>marchează ca necitit</value>
+  </data>
+  <data name="PivotComments.Header" xml:space="preserve">
+    <value>COMENTARII</value>
+  </data>
+  <data name="PivotSubmitted.Header" xml:space="preserve">
+    <value>TRIMISE</value>
+  </data>
+  <data name="PostsResultsCode" xml:space="preserve">
+    <value>Rezultate postări</value>
+  </data>
+  <data name="replyBTN.ButtonText" xml:space="preserve">
+    <value>răspunde</value>
+  </data>
+  <data name="ReplyComment" xml:space="preserve">
+    <value>răspunde</value>
+  </data>
+  <data name="SaveComment" xml:space="preserve">
+    <value>Salvează comentariu</value>
+  </data>
+  <data name="SavePost" xml:space="preserve">
+    <value>Salvează postare</value>
+  </data>
+  <data name="SignInCode.Text" xml:space="preserve">
+    <value>Autentificare</value>
+  </data>
+  <data name="SignOutCode.Text" xml:space="preserve">
+    <value>Deconectare</value>
+  </data>
+  <data name="SubredditResultsCode" xml:space="preserve">
+    <value>Rezultate Subreddit</value>
+  </data>
+  <data name="UnhidePost" xml:space="preserve">
+    <value>Afișează postare</value>
+  </data>
+  <data name="UnsaveComment" xml:space="preserve">
+    <value>Eliminare comentariu</value>
+  </data>
+  <data name="UnsavePost" xml:space="preserve">
+    <value>Eliminare postare</value>
+  </data>
+  <data name="UserResultsCode" xml:space="preserve">
+    <value>Rezultate utilizator</value>
+  </data>
+  <data name="ViewInContext.ButtonText" xml:space="preserve">
+    <value>vezi comentariu în context</value>
+  </data>
+  <data name="SendCode.Content" xml:space="preserve">
+    <value>Trimite</value>
+  </data>
+  <data name="UpdateCode.Content" xml:space="preserve">
+    <value>Actualizează</value>
+  </data>
+  <data name="SortTBS.Text" xml:space="preserve">
+    <value>Sortare:</value>
+  </data>
+  <data name="FeedbackHubLabel.Label" xml:space="preserve">
+    <value>Centrul de feedback</value>
+  </data>
+  <data name="EnterFullScreenModeCode.Label" xml:space="preserve">
+    <value>Intră în modul "Ecran Complet"</value>
+  </data>
+  <data name="ExitFullScreenModeCode.Label" xml:space="preserve">
+    <value>Ieși din modul "Ecran Complet"</value>
+  </data>
+  <data name="FullScreenModeXAML.Label" xml:space="preserve">
+    <value>Intră în modul "Ecran Complet"</value>
+  </data>
+</root>
