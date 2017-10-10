@@ -556,7 +556,7 @@
     <value>Tytuł</value>
   </data>
   <data name="TimeTB.Text" xml:space="preserve">
-    <value>Time:</value>
+    <value>Czas:</value>
   </data>
   <data name="ViewContextTB.Text" xml:space="preserve">
     <value>Zobacz w kontekście</value>
@@ -574,7 +574,7 @@
     <value>Liczenie:</value>
   </data>
   <data name="MoreTB.Text" xml:space="preserve">
-    <value>more</value>
+    <value>więcej</value>
   </data>
   <data name="RunGilded.Text" xml:space="preserve">
     <value>pozłacany</value>
@@ -587,7 +587,7 @@
 Głównym celem jest optymalizacja, a także świetne funkcje związane z systemem Windows 10!</value>
   </data>
   <data name="AddMessagesTB.Text" xml:space="preserve">
-    <value>Dodawanie wiadomości do centrum powiadomień w milczeniu</value>
+    <value>Dodawanie wiadomości do centrum powiadomień w ciszy</value>
   </data>
   <data name="AlwaysCombo.Content" xml:space="preserve">
     <value>Zawszę</value>
@@ -662,7 +662,7 @@ Głównym celem jest optymalizacja, a także świetne funkcje związane z system
     <value>Jest NSFW?</value>
   </data>
   <data name="IsYNSFW.Content" xml:space="preserve">
-    <value>Yes</value>
+    <value>Tak</value>
   </data>
   <data name="LastUpdate.Text" xml:space="preserve">
     <value>Ostatnia Aktualizacja:</value>
@@ -680,7 +680,7 @@ Głównym celem jest optymalizacja, a także świetne funkcje związane z system
     <value>Pokaż nakładkę na aplikację</value>
   </data>
   <data name="MSBand1.Text" xml:space="preserve">
-    <value>Reddunt może zintegrować się z urządzeniem Microsoft Band v1 lub v2, aby zaktualizować tapetę, dodać płytkę Reddunt lub wyświetlać błyskawiczne powiadomienia o nowych wiadomościach skrzynki odbiorczej.</value>
+    <value>Reddunt może zintegrować się z urządzeniem Microsoft Band v1 lub v2 aby zaktualizować tapetę, dodaj kafelek Reddunt lub wyświetlać błyskawiczne powiadomienia o nowych wiadomościach skrzynki odbiorczej.</value>
   </data>
   <data name="MSBand2.Text" xml:space="preserve">
     <value>Nie znaleziono banda, upewnij się, że Twój band jest włączony i podłączony.</value>
@@ -707,13 +707,13 @@ Głównym celem jest optymalizacja, a także świetne funkcje związane z system
     <value>tryb blokowania NSFW</value>
   </data>
   <data name="PinToStart.Content" xml:space="preserve">
-    <value>Przypiąć do startu</value>
+    <value>Przypnij do startu</value>
   </data>
   <data name="PreloadComments.Text" xml:space="preserve">
     <value>Wczytaj wstępne komentarze</value>
   </data>
   <data name="RateUnder.Text" xml:space="preserve">
-    <value>Oceń i zrecenzuj w sklepie Windows Store</value>
+    <value>Oceń i zrecenzuj w Windows Store</value>
   </data>
   <data name="RelevanceCB.Content" xml:space="preserve">
     <value>Stosowność</value>
@@ -728,7 +728,7 @@ Głównym celem jest optymalizacja, a także świetne funkcje związane z system
     <value>Nie</value>
   </data>
   <data name="SelfPostYCB.Content" xml:space="preserve">
-    <value>Yes</value>
+    <value>Tak</value>
   </data>
   <data name="SendCT.Content" xml:space="preserve">
     <value>Wyślij</value>
@@ -740,7 +740,7 @@ Głównym celem jest optymalizacja, a także świetne funkcje związane z system
     <value>Subreddit Filter</value>
   </data>
   <data name="SubredditsCB.Content" xml:space="preserve">
-    <value>ustawienia wyświetlania Subreddits </value>
+    <value>ustawienia wyświetlania Subredditów </value>
   </data>
   <data name="SubscribeCT.Content" xml:space="preserve">
     <value>Subskrybuj</value>
@@ -791,7 +791,7 @@ Głównym celem jest optymalizacja, a także świetne funkcje związane z system
     <value>Ostatnia aktualizacja:</value>
   </data>
   <data name="LockscreendesktopwallpaperupdatingCode.Text" xml:space="preserve">
-    <value>Zablokuj ekran i aktualizacja tapet</value>
+    <value>Zablokowanie ekranu i aktualizacja tapet</value>
   </data>
   <data name="NeverCode.Text" xml:space="preserve">
     <value>Nigdy</value>
@@ -854,7 +854,7 @@ Głównym celem jest optymalizacja, a także świetne funkcje związane z system
     <value>Zapisz komentarz</value>
   </data>
   <data name="SubredditResultsCode" xml:space="preserve">
-    <value>Subreddit Wyniki</value>
+    <value>Wyniki Subreddita</value>
   </data>
   <data name="UnsaveComment" xml:space="preserve">
     <value>Pokaż komentarz</value>
@@ -869,7 +869,7 @@ Głównym celem jest optymalizacja, a także świetne funkcje związane z system
     <value>Wyślij</value>
   </data>
   <data name="UpdateCode.Content" xml:space="preserve">
-    <value>Zakualizuj</value>
+    <value>Zaktualizuj</value>
   </data>
   <data name="FeedbackHubLabel.Label" xml:space="preserve">
     <value>Feedback Hub</value>
