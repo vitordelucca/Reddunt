@@ -208,7 +208,7 @@
     <value>Pengaturan</value>
   </data>
   <data name="ShareHeartTB.Text" xml:space="preserve">
-    <value>Bagikan ❤</value>
+    <value>Bagikan </value>
   </data>
   <data name="ShowMoreTB.Text" xml:space="preserve">
     <value>tunjukkan lebih</value>
@@ -455,7 +455,7 @@ Fokus utama berada di optimasi dan fitur-fitur khusus Windows 10!</value>
     <value>Sepanjang Waktu</value>
   </data>
   <data name="CancelCT.Content" xml:space="preserve">
-    <value>BAtal</value>
+    <value>Batal</value>
   </data>
   <data name="CBestCB.Content" xml:space="preserve">
     <value>Terbaik</value>
