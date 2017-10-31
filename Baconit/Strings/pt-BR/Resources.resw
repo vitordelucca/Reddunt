@@ -124,7 +124,7 @@
     <value>Salvar imagem</value>
   </data>
   <data name="EnjoyingRedduntTB" xml:space="preserve">
-    <value>Gostando do Reddunt? Nós adorariamos se você deixasse um rápido review! Obrigado desde já por usar o aplicativo!</value>
+    <value>Gostando do Reddunt? Nós adoraríamos se você deixasse um rápido review! Obrigado desde já por usar o aplicativo!</value>
   </data>
   <data name="genericTextHeaderTB.Text" xml:space="preserve">
     <value>Erro ao carregar o post</value>
@@ -133,10 +133,10 @@
     <value>Toque em qualquer lugar para abrir no Edge</value>
   </data>
   <data name="headerText.Text" xml:space="preserve">
-    <value>Este post contem um link para algum subreddit</value>
+    <value>Este post contém um link para algum subreddit</value>
   </data>
   <data name="headerTextAppsTB.Text" xml:space="preserve">
-    <value>Este post contem um link para um app da Loja. </value>
+    <value>Este post contém um link para um app da Loja. </value>
   </data>
   <data name="inboxGridTB.Text" xml:space="preserve">
     <value>Mensagens</value>
@@ -163,7 +163,7 @@
     <value>não há resultados</value>
   </data>
   <data name="nsfwBlockRootGridTB1" xml:space="preserve">
-    <value>Este post contem conteúdo +18</value>
+    <value>Este post contém conteúdo +18</value>
   </data>
   <data name="nsfwBlockRootGridTB2.Text" xml:space="preserve">
     <value>Toque em qualquer lugar para visualizar</value>
@@ -512,7 +512,7 @@ O foco principal é em otimizações, mas também como algumas funções especif
     <value>Não deixe que exceções fatais matem o app, relatar a exceção em vez de deixar de funcionar; (Isso pode deixar o aplicativo em um estado instável).</value>
   </data>
   <data name="FlipViewS.Text" xml:space="preserve">
-    <value>Configuraçõs da barra lateral</value>
+    <value>Configurações da barra lateral</value>
   </data>
   <data name="fullpost.Text" xml:space="preserve">
     <value>Mostrar títulos completos em posts</value>
