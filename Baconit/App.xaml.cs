@@ -24,6 +24,9 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI.StartScreen;
 using System.Threading.Tasks;
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Push;
 
 namespace Baconit
 {
@@ -116,9 +119,12 @@ namespace Baconit
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
             SetupAndALaunchApp(e.Arguments);
+            MobileCenter.Start("c65940eb-f7d2-44bd-9aa5-3728d70d441e", typeof(Analytics), typeof(Push));
+            Push.CheckLaunchedFromNotification(e);
+
         }
 
-        
+
         /// <summary>
         /// Does the work necessary to setup and launch the app.
         /// </summary>
