@@ -50,6 +50,7 @@ namespace Baconit.Panels
         SortTypes m_currentSortType;
         SortTimeTypes m_currentSortTimeType;
         LoadingOverlay m_loadingOverlay = null;
+       
 
         // we use for putting strings on resources 
         ResourceContext resourceContext = new ResourceContext();
@@ -60,6 +61,7 @@ namespace Baconit.Panels
             this.InitializeComponent();
             this.DataContext = this;
             Loaded += SubredditPanel_Loaded;
+            
 
             if (Microsoft.Services.Store.Engagement.StoreServicesFeedbackLauncher.IsSupported())
             {
@@ -69,7 +71,11 @@ namespace Baconit.Panels
             // Set the post list
             ui_postList.ItemsSource = m_postsLists;
 
+            
+
         }
+
+       
 
         private void SubredditPanel_Loaded(object sender, RoutedEventArgs e)
         {
@@ -78,11 +84,13 @@ namespace Baconit.Panels
             ui_postList.EndOfListDetectionThrehold = 0.70;
             ui_splitView.PaneClosing += SplitView_PaneClosing;
         }
+       
 
         public async void PanelSetup(IPanelHost host, Dictionary<string, object> arguments)
         {
             // Capture the host
             m_host = host;
+            
 
             Subreddit subreddit = null;
             if (arguments.ContainsKey(PanelManager.NAV_ARGS_SUBREDDIT_NAME))
@@ -186,6 +194,7 @@ namespace Baconit.Panels
             // Capture the subreddit
             m_subreddit = subreddit;
 
+
             // Get the sort type
             SetCurrentSort(sortType);
 
@@ -256,6 +265,7 @@ namespace Baconit.Panels
         {
             // Update the post or posts
             SetPosts(args.StartingPosition, args.ChangedItems, args.IsFreshUpdate);
+
         }
 
         /// <summary>
@@ -911,6 +921,42 @@ namespace Baconit.Panels
             // resizing when we hit the actualwidth.
             double panelSize = ui_splitView.ActualWidth - 10 < 380 ? ui_splitView.ActualWidth - 10 : 380;
             ui_splitView.OpenPaneLength = panelSize;
+        }
+
+        Post s_post;
+
+        private void ShareLink_Invoked(SwipeItem sender, SwipeItemInvokedEventArgs args)
+        {       
+            s_post = args.SwipeControl.DataContext as Post;
+            DataTransferManager.ShowShareUI();
+            DataTransferManager.GetForCurrentView().DataRequested += SubredditPanel_DataRequested;
+
+        }
+
+        private void SubredditPanel_DataRequested(DataTransferManager sender, DataRequestedEventArgs args)
+        {    
+            if (s_post == null)
+            {
+                return;
+            }
+
+            DataRequest request = args.Request;
+
+            request.Data.Properties.ApplicationName = "Reddunt";
+            request.Data.Properties.ContentSourceWebLink = new Uri(s_post.Url, UriKind.Absolute);
+            request.Data.Properties.Title = s_post.Title;
+            request.Data.Properties.Description = "By " + s_post.Author;
+            request.Data.SetText($"\r\n\r\n{s_post.Title}\r\n\r\n{s_post.Url}");
+
+        }
+
+            private void CopyPermalink_Invoked(SwipeItem sender, SwipeItemInvokedEventArgs args)
+            { 
+            // Get the post and copy the url into the clipboard
+            Post post = args.SwipeControl.DataContext as Post;
+            DataPackage data = new DataPackage();
+            data.SetText("http://www.reddit.com" + post.Permalink);
+            Clipboard.SetContent(data);
         }
     }
 }

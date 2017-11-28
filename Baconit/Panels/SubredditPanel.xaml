@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:dataObjects="using:BaconBackend.DataObjects"
              xmlns:helperControl="using:Baconit.HelperControls"
+             xmlns:rs3="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 5)"
              RequestedTheme="Dark"
              d:DesignHeight="600"
              d:DesignWidth="480"
@@ -13,7 +14,23 @@
     <UserControl.Resources>
 
         <DataTemplate x:Key="SubredditItemItemDataTemplate" x:DataType="dataObjects:Post">
-            <Grid Margin="0,0,6,10"
+            <rs3:SwipeControl x:Name="swipeContainer">
+                <rs3:SwipeControl.RightItems>
+                    <rs3:SwipeItems Mode="Reveal">
+                        <rs3:SwipeItem Text="Share link" Foreground="White" Background="DarkGray"  Invoked="ShareLink_Invoked">
+                            <rs3:SwipeItem.IconSource>
+                                <rs3:SymbolIconSource Symbol="Share"/>
+                            </rs3:SwipeItem.IconSource>
+                        </rs3:SwipeItem>
+
+                        <rs3:SwipeItem Text="Copy permalink" Foreground="White" Background="{ThemeResource SystemAccentColor}" Invoked="CopyPermalink_Invoked" >
+                            <rs3:SwipeItem.IconSource>
+                                <rs3:SymbolIconSource Symbol="Copy"/>
+                            </rs3:SwipeItem.IconSource>
+                        </rs3:SwipeItem>
+                    </rs3:SwipeItems>
+                </rs3:SwipeControl.RightItems>
+                <Grid Margin="0,0,6,10"
                   Background="Transparent"
                   Holding="Post_Holding"
                   RightTapped="Post_RightTapped" >
@@ -28,6 +45,7 @@
                         <MenuFlyoutItem Click="HidePost_Click" Text="{x:Bind IsHiddenMenuText, Mode=OneWay}" />
                         <MenuFlyoutItem Click="CopyLink_Click" Text="Copy link" x:Uid="CopyLinkMFITB"/>
                         <MenuFlyoutItem Click="CopyPermalink_Click" Text="Copy permalink" x:Uid="CopyPermaLinkMFITB"/>
+                       
                         <MenuFlyoutItem Click="ViewUser_Click" Text="Go to user" x:Uid="GoToUserTB"/>
                      
                     </MenuFlyout>
@@ -64,13 +82,13 @@
                             Orientation="Vertical"
                             Tapped="PostTitle_Tapped" VerticalAlignment="Center">
                     <Grid>
-                        <TextBlock Margin="0,0,10,0"
+                            <TextBlock Margin="0,0,10,0"
                                    HorizontalAlignment="Left"
                                    Foreground="{x:Bind TitleTextBrush, Mode=OneWay}"
                                    MaxLines="{x:Bind TitleMaxLines}"
                                    Text="{x:Bind Title}"
                                    TextWrapping="Wrap" />
-                    </Grid>
+                        </Grid>
                     <StackPanel>
                         <TextBlock Margin="0,0,10,0"
                                    HorizontalAlignment="Left"
@@ -122,6 +140,7 @@
                             <TextBlock Margin="6,2,6,2"
                                        Foreground="White"
                                        Text="Gilded" x:Uid="GildedTB"/>
+
                         </Border>
                     </StackPanel>
                 </StackPanel>
@@ -131,12 +150,13 @@
                             Background="{ThemeResource SystemControlBackgroundAccentBrush}"
                             Tapped="PostTitle_Tapped"
                             Visibility="{x:Bind ImageVisibility, Mode=OneWay}" HorizontalAlignment="Stretch">
-                    <Image Width="70"
+                        <Image Width="70"
                            Margin="2"
                            HorizontalAlignment="Stretch"
                            Source="{x:Bind Image, Mode=OneWay}" />
-                </StackPanel>
+                    </StackPanel>
             </Grid>
+            </rs3:SwipeControl>
         </DataTemplate>
     </UserControl.Resources>
     <Grid x:Name="SplitViewGrid">
@@ -253,9 +273,9 @@
                                                     
                                                     ItemTemplate="{StaticResource SubredditItemItemDataTemplate}"
                                                     Padding="0,0,8,0"
-                                                    SelectionChanged="PostList_SelectionChanged"
-                                                       
-                                                    >
+                                                    SelectionChanged="PostList_SelectionChanged">
+
+                        >
                         <ListView.ItemContainerTransitions>
                             <TransitionCollection>
                                 <EntranceThemeTransition/>
@@ -273,7 +293,7 @@
                            Visibility="Collapsed" x:Uid="NoPostHereTB"/>
 
 
-                    <CommandBar Grid.Row="2" Background="{StaticResource BackgroundTopBlur}">
+                    <CommandBar Grid.Row="2" Background="{StaticResource BackgroundTopBlur}" >
                         <CommandBar.CommandBarOverflowPresenterStyle>
                             <Style TargetType="CommandBarOverflowPresenter">
                                 <Setter Property="Background"
@@ -284,7 +304,7 @@
                         <CommandBar.PrimaryCommands>
                             <AppBarButton Icon="Refresh"
                       Click="Refresh_Click"
-                      Label="Refresh" x:Uid="RefreshButton" AccessKey="R"/>
+                      Label="Refresh" x:Uid="RefreshButton" AccessKey="R"  />
                             <AppBarButton x:Name="ui_appBarSubButton"
                       Icon="Add"
                       Click="AppBarSideBarOpen_OnIconClicked"
