@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accountHeader.Text" xml:space="preserve">
+    <value>Akun</value>
+  </data>
+  <data name="AppBarMenuButton.Label" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="contentRootFM.Text" xml:space="preserve">
+    <value>Simpan gambar</value>
+  </data>
+  <data name="EnjoyingRedduntTB" xml:space="preserve">
+    <value>Suka Reddunt? Kita akan sangat menghargainya jika Anda memberikan ulasan. Terima kasih atas dukungan anda!</value>
+  </data>
+  <data name="genericTextHeaderTB.Text" xml:space="preserve">
+    <value>Error membuka posting</value>
+  </data>
+  <data name="genericTextSubTB.Text" xml:space="preserve">
+    <value>Tekan di mana saja untuk membuka di Edge</value>
+  </data>
+  <data name="headerText.Text" xml:space="preserve">
+    <value>Posting ini menuju ke sebuah subreddit</value>
+  </data>
+  <data name="headerTextAppsTB.Text" xml:space="preserve">
+    <value>Posting ini menuju ke sebuah aplikasi Windows</value>
+  </data>
+  <data name="inboxGridTB.Text" xml:space="preserve">
+    <value>Kotak masuk</value>
+  </data>
+  <data name="LoadingCommentsTB.Text" xml:space="preserve">
+    <value>Memuat komentar</value>
+  </data>
+  <data name="loadingTextTB.Text" xml:space="preserve">
+    <value>Memuat...</value>
+  </data>
+  <data name="LoginProgressText.Text" xml:space="preserve">
+    <value>Sedang masuk</value>
+  </data>
+  <data name="MessageInboxTB.Text" xml:space="preserve">
+    <value>Kotak masuk pesan</value>
+  </data>
+  <data name="minorText.Text" xml:space="preserve">
+    <value>Tekan di mana saja untuk membuka /r/baconit</value>
+  </data>
+  <data name="minorTextAppsTB.Text" xml:space="preserve">
+    <value>Tekan di mana saja untuk membuka Store</value>
+  </data>
+  <data name="NoResultsTB.Text" xml:space="preserve">
+    <value>tidak ada hasil</value>
+  </data>
+  <data name="nsfwBlockRootGridTB1" xml:space="preserve">
+    <value>Posting ini NSFW</value>
+  </data>
+  <data name="nsfwBlockRootGridTB2.Text" xml:space="preserve">
+    <value>Tekan di mana saja untuk melihat</value>
+  </data>
+  <data name="profileGridTB.Text" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="progressTextTB.Text" xml:space="preserve">
+    <value>Memuat</value>
+  </data>
+  <data name="ProTip.Text" xml:space="preserve">
+    <value>Pro Tip</value>
+  </data>
+  <data name="QuickReviewCT.Content" xml:space="preserve">
+    <value>ulas</value>
+  </data>
+  <data name="quickSearchBox.PlaceholderText" xml:space="preserve">
+    <value>Cari apa saja</value>
+  </data>
+  <data name="RedduntAccountTB.Text" xml:space="preserve">
+    <value>Gunakan Reddunt secara penuh dengan menambah akun. Akun Reddit anonim, sederhana, dan gratis - dan Reddunt akan menjaganya seperti itu.</value>
+  </data>
+  <data name="SearchASUPTBS.PlaceholderText" xml:space="preserve">
+    <value>Cari apa saja; subreddit, pengguna, postingan, etc.</value>
+  </data>
+  <data name="SearchForTB.Text" xml:space="preserve">
+    <value>Cari:</value>
+  </data>
+  <data name="SearchTBs.Text" xml:space="preserve">
+    <value>Cari</value>
+  </data>
+  <data name="searchTextBlock.Text" xml:space="preserve">
+    <value>Cari</value>
+  </data>
+  <data name="SendingCommentTB.Text" xml:space="preserve">
+    <value>Mengirim komentar...</value>
+  </data>
+  <data name="settingsGridTB.Text" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="ShareHeartTB.Text" xml:space="preserve">
+    <value>Bagikan </value>
+  </data>
+  <data name="ShowMoreTB.Text" xml:space="preserve">
+    <value>tunjukkan lebih</value>
+  </data>
+  <data name="signInGridTB.Text" xml:space="preserve">
+    <value>Masuk</value>
+  </data>
+  <data name="subscribersTextBlock.Text" xml:space="preserve">
+    <value>73,000 pelanggan</value>
+  </data>
+  <data name="textBlock.Text" xml:space="preserve">
+    <value>Spoiler!</value>
+  </data>
+  <data name="TrendingSubreddits.Text" xml:space="preserve">
+    <value>Subreddit trending</value>
+  </data>
+  <data name="TryItTip.Text" xml:space="preserve">
+    <value>Ayo, cobalah!</value>
+  </data>
+  <data name="ViewCommentTip.Text" xml:space="preserve">
+    <value>Untuk melihat komentar, arahkan mouse atau jari anda di bar judul dan scroll ke bawah.</value>
+  </data>
+  <data name="WelcomeText.Text" xml:space="preserve">
+    <value>Selamat datang, Quinbd</value>
+  </data>
+  <data name="AccountAgeTB.Text" xml:space="preserve">
+    <value>0 hari</value>
+  </data>
+  <data name="AllTime.Text" xml:space="preserve">
+    <value>Sepanjang waktu</value>
+  </data>
+  <data name="CakeDayTB.Text" xml:space="preserve">
+    <value>Hari Kue!</value>
+  </data>
+  <data name="CommentSort.Text" xml:space="preserve">
+    <value>Sortir:</value>
+  </data>
+  <data name="CommentSortFMIBest.Text" xml:space="preserve">
+    <value>Terbaik</value>
+  </data>
+  <data name="CommentSortFMIContro.Text" xml:space="preserve">
+    <value>Kontroversial</value>
+  </data>
+  <data name="CommentSortFMINew.Text" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="CommentSortFMITop.Text" xml:space="preserve">
+    <value>Terbaik</value>
+  </data>
+  <data name="CommentSortNew.Text" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="CopyLinkMFITB.Text" xml:space="preserve">
+    <value>Salin link</value>
+  </data>
+  <data name="CopyPermaLinkMFITB.Text" xml:space="preserve">
+    <value>Salin permalink</value>
+  </data>
+  <data name="FormattedPreviewTB.Text" xml:space="preserve">
+    <value>Preview yang diformat</value>
+  </data>
+  <data name="GildedTB.Text" xml:space="preserve">
+    <value>Diemaskan</value>
+  </data>
+  <data name="GoToUserTB.Text" xml:space="preserve">
+    <value>Ke pengguna</value>
+  </data>
+  <data name="HeaderSubmitPost.Text" xml:space="preserve">
+    <value>KIRIM POST</value>
+  </data>
+  <data name="NoPostHereTB.Text" xml:space="preserve">
+    <value>Tidak ada posting di sini.</value>
+  </data>
+  <data name="NoSubmittedComments.Text" xml:space="preserve">
+    <value>Tidak Ada Komentar</value>
+  </data>
+  <data name="NoSubmittedPostsTB.Text" xml:space="preserve">
+    <value>Tidak Ada Posting</value>
+  </data>
+  <data name="PastDay.Text" xml:space="preserve">
+    <value>Sehari lalu</value>
+  </data>
+  <data name="PastHour.Text" xml:space="preserve">
+    <value>Sejam lalu</value>
+  </data>
+  <data name="PastMonth.Text" xml:space="preserve">
+    <value>Sebulan lalu</value>
+  </data>
+  <data name="PastWeek.Text" xml:space="preserve">
+    <value>Seminggu lalu</value>
+  </data>
+  <data name="PastYear.Text" xml:space="preserve">
+    <value>Setahun lalu</value>
+  </data>
+  <data name="PostSortFMIBest.Text" xml:space="preserve">
+    <value>Terbaik</value>
+  </data>
+  <data name="PostSortFMIContnro.Text" xml:space="preserve">
+    <value>Kontroversial</value>
+  </data>
+  <data name="PostSortFMINew.Text" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="PostSortFMITop.Text" xml:space="preserve">
+    <value>Terbaik</value>
+  </data>
+  <data name="PostSortTextTB.Text" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="SelfTextTB.Text" xml:space="preserve">
+    <value>Teks sendiri</value>
+  </data>
+  <data name="SettingsTB.Text" xml:space="preserve">
+    <value>PENGATURAN</value>
+  </data>
+  <data name="SMIContro.Text" xml:space="preserve">
+    <value>Kontroversial</value>
+  </data>
+  <data name="SMIHot.Text" xml:space="preserve">
+    <value>Hangat</value>
+  </data>
+  <data name="SMINew.Text" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="SMIRising.Text" xml:space="preserve">
+    <value>Tenar</value>
+  </data>
+  <data name="SMITop.Text" xml:space="preserve">
+    <value>Terbaik</value>
+  </data>
+  <data name="SortDTB.Text" xml:space="preserve">
+    <value>Sortir:</value>
+  </data>
+  <data name="SortPostTB.Text" xml:space="preserve">
+    <value>Sortir:</value>
+  </data>
+  <data name="SortTextHotTB.Text" xml:space="preserve">
+    <value>Hangat</value>
+  </data>
+  <data name="SortTimeTB.Text" xml:space="preserve">
+    <value>Past Week</value>
+  </data>
+  <data name="StickyTB.Text" xml:space="preserve">
+    <value>Tempelan</value>
+  </data>
+  <data name="StickyUserTB.Text" xml:space="preserve">
+    <value>Tempelan</value>
+  </data>
+  <data name="SubtmitPostTitleTB.Text" xml:space="preserve">
+    <value>Judul</value>
+  </data>
+  <data name="TimeTB.Text" xml:space="preserve">
+    <value>Waktu:</value>
+  </data>
+  <data name="ViewContextTB.Text" xml:space="preserve">
+    <value>lihat dengan konteks</value>
+  </data>
+  <data name="CLinkFMI.Text" xml:space="preserve">
+    <value>Salin link</value>
+  </data>
+  <data name="CMBest.Text" xml:space="preserve">
+    <value>Terbaik</value>
+  </data>
+  <data name="CMContro.Text" xml:space="preserve">
+    <value>Kontroversial</value>
+  </data>
+  <data name="CMNew.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="CMOld.Text" xml:space="preserve">
+    <value>Old</value>
+  </data>
+  <data name="CMQA.Text" xml:space="preserve">
+    <value>Tanya Jawab</value>
+  </data>
+  <data name="CMTop.Text" xml:space="preserve">
+    <value>Terbaik</value>
+  </data>
+  <data name="collapseTBN.Text" xml:space="preserve">
+    <value>sembunyikan</value>
+  </data>
+  <data name="CopyPerFMI.Text" xml:space="preserve">
+    <value>Salin permalink</value>
+  </data>
+  <data name="CountTB.Text" xml:space="preserve">
+    <value>Count:</value>
+  </data>
+  <data name="CPermaFMI.Text" xml:space="preserve">
+    <value>Salin permalink</value>
+  </data>
+  <data name="DeletePostClick.Text" xml:space="preserve">
+    <value>Hapus posting</value>
+  </data>
+  <data name="EditPostClick.Text" xml:space="preserve">
+    <value>Ralat posting</value>
+  </data>
+  <data name="MoreTB.Text" xml:space="preserve">
+    <value>lebih</value>
+  </data>
+  <data name="RunGilded.Text" xml:space="preserve">
+    <value>diemaskan</value>
+  </data>
+  <data name="RunSticky.Text" xml:space="preserve">
+    <value>tempelan</value>
+  </data>
+  <data name="ShareCommentFMI.Text" xml:space="preserve">
+    <value>Bagikan komentar</value>
+  </data>
+  <data name="SharePostFMI.Text" xml:space="preserve">
+    <value>Bagikan posting</value>
+  </data>
+  <data name="TapViewEntire.Text" xml:space="preserve">
+    <value>Tekan di sini untuk melihat semuanya</value>
+  </data>
+  <data name="AboutDescription.Text" xml:space="preserve">
+    <value>Reddunt adalah klien Reddit® yang indah berdasarkan Baconit, sebuah aplikasi bersumber terbuka. Tersedia di semua perangkat Windows 10.
+Fokus utama berada di optimasi dan fitur-fitur khusus Windows 10!</value>
+  </data>
+  <data name="AddMessagesTB.Text" xml:space="preserve">
+    <value>Tambahkan pesan ke pusat pemberitahuan secara diam-diam</value>
+  </data>
+  <data name="AlwaysCombo.Content" xml:space="preserve">
+    <value>Selalu</value>
+  </data>
+  <data name="AuthorFilter.PlaceholderText" xml:space="preserve">
+    <value>Filter Penulis</value>
+  </data>
+  <data name="AutoTB.Text" xml:space="preserve">
+    <value>Perkecil header secara otomatis saat di komentar</value>
+  </data>
+  <data name="AutoUpdateTB.Text" xml:space="preserve">
+    <value>Ubah gambar kunci layar secara otomatis</value>
+  </data>
+  <data name="AutoUpdateWTB.Text" xml:space="preserve">
+    <value>Ubah latar belakang secara otomatis</value>
+  </data>
+  <data name="BackgroundInboxCTB.Text" xml:space="preserve">
+    <value>Cek kotak masuk secara berkala</value>
+  </data>
+  <data name="BackgroundInboxTB.Text" xml:space="preserve">
+    <value>Cek kotak masuk secara berkala</value>
+  </data>
+  <data name="CAllTimeB.Content" xml:space="preserve">
+    <value>Sepanjang Waktu</value>
+  </data>
+  <data name="CancelCT.Content" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="CBestCB.Content" xml:space="preserve">
+    <value>Terbaik</value>
+  </data>
+  <data name="CBIalltime.Content" xml:space="preserve">
+    <value>sepanjang waktu</value>
+  </data>
+  <data name="CBIcontro.Content" xml:space="preserve">
+    <value>kontroversial</value>
+  </data>
+  <data name="CBIhot.Content" xml:space="preserve">
+    <value>hangat</value>
+  </data>
+  <data name="CBInew.Content" xml:space="preserve">
+    <value>baru</value>
+  </data>
+  <data name="CBIpday.Content" xml:space="preserve">
+    <value>sehari lalu</value>
+  </data>
+  <data name="CBIphour.Content" xml:space="preserve">
+    <value>sejam lalu</value>
+  </data>
+  <data name="CBIpmonth.Content" xml:space="preserve">
+    <value>sebulan lalu</value>
+  </data>
+  <data name="CBIpweek.Content" xml:space="preserve">
+    <value>seminggu lalu</value>
+  </data>
+  <data name="CBIpyear.Content" xml:space="preserve">
+    <value>setahun lalu</value>
+  </data>
+  <data name="CBIrising.Content" xml:space="preserve">
+    <value>tenar</value>
+  </data>
+  <data name="CBItop.Content" xml:space="preserve">
+    <value>terbaik</value>
+  </data>
+  <data name="CCommentsCBB.Content" xml:space="preserve">
+    <value>Komentar</value>
+  </data>
+  <data name="CControCB.Content" xml:space="preserve">
+    <value>Kontroversial</value>
+  </data>
+  <data name="CheckUnder.Text" xml:space="preserve">
+    <value>Lihat kode sumber</value>
+  </data>
+  <data name="CNewCB.Content" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="COldCB.Content" xml:space="preserve">
+    <value>Lama</value>
+  </data>
+  <data name="CPastDayB.Content" xml:space="preserve">
+    <value>Sehari Lalu</value>
+  </data>
+  <data name="CPastHourB.Content" xml:space="preserve">
+    <value>Sejam Lalu</value>
+  </data>
+  <data name="CPastMonthB.Content" xml:space="preserve">
+    <value>Sebulan Lalu</value>
+  </data>
+  <data name="CPastWeekB.Content" xml:space="preserve">
+    <value>Seminggu Lalu</value>
+  </data>
+  <data name="CPastYearB.Content" xml:space="preserve">
+    <value>Setahun Lalu</value>
+  </data>
+  <data name="CQACB.Content" xml:space="preserve">
+    <value>Tanya Jawab</value>
+  </data>
+  <data name="CreateAccountCT.Content" xml:space="preserve">
+    <value>Buat Akun</value>
+  </data>
+  <data name="CSettings.Text" xml:space="preserve">
+    <value>Pengaturan komentar</value>
+  </data>
+  <data name="CTopCB.Content" xml:space="preserve">
+    <value>Terbaik</value>
+  </data>
+  <data name="DevSettings.Text" xml:space="preserve">
+    <value>Pengaturan pengembang</value>
+  </data>
+  <data name="DisableCombo.Content" xml:space="preserve">
+    <value>Matikan per subreddit; di reset setelah aplikasi ditutup.</value>
+  </data>
+  <data name="DisablePostLoad.Text" xml:space="preserve">
+    <value>Jangan muat isi post sebelum ditekan</value>
+  </data>
+  <data name="EverythingCB.Content" xml:space="preserve">
+    <value>Semuanya</value>
+  </data>
+  <data name="FatalException.Text" xml:space="preserve">
+    <value>Jangan biarkan kesalahan fatal mematikan aplikasi, laporkan kesalahan dari pada keluar. (ini akan membuat aplikasi tidak stabil)</value>
+  </data>
+  <data name="FlipViewS.Text" xml:space="preserve">
+    <value>PENGATURAN TAMPILAN FLIP</value>
+  </data>
+  <data name="fullpost.Text" xml:space="preserve">
+    <value>Tampilkan judul posting lengkap</value>
+  </data>
+  <data name="HeaderAboutTB.Text" xml:space="preserve">
+    <value>Tentang</value>
+  </data>
+  <data name="HowMessagesTB.Text" xml:space="preserve">
+    <value>Bagaimana pesan-pesan muncul di pusat pemberitahuan</value>
+  </data>
+  <data name="ImageUpdateFTB.Text" xml:space="preserve">
+    <value>Frekuensi perbaruan gambar</value>
+  </data>
+  <data name="IsNNSFW.Content" xml:space="preserve">
+    <value>Tidak</value>
+  </data>
+  <data name="IsNSFW.Content" xml:space="preserve">
+    <value>Apakah NSFW?</value>
+  </data>
+  <data name="IsYNSFW.Content" xml:space="preserve">
+    <value>Ya</value>
+  </data>
+  <data name="LastUpdate.Text" xml:space="preserve">
+    <value>Perbaruan Terakhir:</value>
+  </data>
+  <data name="LoadingC.Text" xml:space="preserve">
+    <value>Memuat komentar</value>
+  </data>
+  <data name="LockScreenTB.Text" xml:space="preserve">
+    <value>Sumber gambar kunci layar</value>
+  </data>
+  <data name="LoginCT.Content" xml:space="preserve">
+    <value>Masuk</value>
+  </data>
+  <data name="MemoryPressure.Text" xml:space="preserve">
+    <value>Halaman dibersihkan untuk tekanan memori: 0</value>
+  </data>
+  <data name="MemOverlay.Text" xml:space="preserve">
+    <value>Tampilkan hamparan memori aplikasi</value>
+  </data>
+  <data name="MSBand1.Text" xml:space="preserve">
+    <value>Reddunt dapat mengintegrasikan Microsoft Band v1 atau v2 anda untuk mengubah latar belakang, menambahkan tile Reddunt, atau memberikan anda pemberitahuan langsung untuk pesan masuk baru.</value>
+  </data>
+  <data name="MSBand2.Text" xml:space="preserve">
+    <value>Band tidak ditemukan, pastikan band anda menyala dan tersambung.</value>
+  </data>
+  <data name="MSBand3.Text" xml:space="preserve">
+    <value>Latar belakang</value>
+  </data>
+  <data name="MSBand4.Text" xml:space="preserve">
+    <value>Ubah latar belakang Band secara otomatis</value>
+  </data>
+  <data name="MSBand5.Text" xml:space="preserve">
+    <value>Sumber gambar latar belakang Band</value>
+  </data>
+  <data name="MSBand6.Text" xml:space="preserve">
+    <value>Tile &amp; Kotak masuk</value>
+  </data>
+  <data name="MSBand7.Text" xml:space="preserve">
+    <value>Pengecekan kotak masuk secara berkala harus aktif untuk menggunakan fitur ini</value>
+  </data>
+  <data name="NeverCombo.Content" xml:space="preserve">
+    <value>Jangan pernah</value>
+  </data>
+  <data name="NNewCB.Content" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="NSFWB.Text" xml:space="preserve">
+    <value>Mode pemblokiran NSFW</value>
+  </data>
+  <data name="PinToStart.Content" xml:space="preserve">
+    <value>Tempel ke start</value>
+  </data>
+  <data name="PostsCB.Content" xml:space="preserve">
+    <value>Posting</value>
+  </data>
+  <data name="PreloadComments.Text" xml:space="preserve">
+    <value>Pramuat komentar</value>
+  </data>
+  <data name="PreloadPost.Text" xml:space="preserve">
+    <value>Pramuat konten posting ke depan</value>
+  </data>
+  <data name="RateUnder.Text" xml:space="preserve">
+    <value>Nilai dan ulas di Windows Store</value>
+  </data>
+  <data name="RelevanceCB.Content" xml:space="preserve">
+    <value>Relevansi</value>
+  </data>
+  <data name="ResetReview.Content" xml:space="preserve">
+    <value>Reset hitungan penilaian dan ulasan</value>
+  </data>
+  <data name="SearchThisSubReddit" xml:space="preserve">
+    <value>Cari di subreddit ini</value>
+  </data>
+  <data name="SelfFilter.PlaceholderText" xml:space="preserve">
+    <value>Filter Selftext</value>
+  </data>
+  <data name="SelfPostCB.Content" xml:space="preserve">
+    <value>Apakah Posting milik sendiri?</value>
+  </data>
+  <data name="SelfPostNCB.Content" xml:space="preserve">
+    <value>Tidak</value>
+  </data>
+  <data name="SelfPostYCB.Content" xml:space="preserve">
+    <value>Ya</value>
+  </data>
+  <data name="SendCT.Content" xml:space="preserve">
+    <value>Kirim</value>
+  </data>
+  <data name="ShowUITB.Text" xml:space="preserve">
+    <value>Tunjukkan tips bantuan UI</value>
+  </data>
+  <data name="SubFilter.PlaceholderText" xml:space="preserve">
+    <value>Filter Subreddit</value>
+  </data>
+  <data name="SubmitNewPost.Content" xml:space="preserve">
+    <value>Kirim posting baru</value>
+  </data>
+  <data name="SubredditsCB.Content" xml:space="preserve">
+    <value>Subreddit</value>
+  </data>
+  <data name="SubscribeCT.Content" xml:space="preserve">
+    <value>Langganan</value>
+  </data>
+  <data name="SVS1.Text" xml:space="preserve">
+    <value>Pengaturan tampilan Subreddit</value>
+  </data>
+  <data name="SVS2.Text" xml:space="preserve">
+    <value>Subreddit yang dibuka saat aplikasi dimulai</value>
+  </data>
+  <data name="SystemState.Text" xml:space="preserve">
+    <value>Keadaan Sistem:</value>
+  </data>
+  <data name="TTopCB.Content" xml:space="preserve">
+    <value>Terbaik</value>
+  </data>
+  <data name="UpdatingLockTB.Text" xml:space="preserve">
+    <value>Mengubah Wallpaper</value>
+  </data>
+  <data name="UsersCB.Content" xml:space="preserve">
+    <value>Pengguna</value>
+  </data>
+  <data name="WallITB.Text" xml:space="preserve">
+    <value>Sumber gambar latar belakang</value>
+  </data>
+  <data name="WebFilter.PlaceholderText" xml:space="preserve">
+    <value>Filter Web</value>
+  </data>
+  <data name="AllTimeCode.Text" xml:space="preserve">
+    <value>Sepanjang Waktu</value>
+  </data>
+  <data name="ControCode.Text" xml:space="preserve">
+    <value>Kontroversial</value>
+  </data>
+  <data name="HotCode.Text" xml:space="preserve">
+    <value>Hangat</value>
+  </data>
+  <data name="NewCode.Text" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="PastDayCode.Text" xml:space="preserve">
+    <value>Sehari lalu</value>
+  </data>
+  <data name="PastHourCode.Text" xml:space="preserve">
+    <value>Sejam lalu</value>
+  </data>
+  <data name="PastHWeek.Text" xml:space="preserve">
+    <value>Seminggu lalu</value>
+  </data>
+  <data name="PastMonthCode.Text" xml:space="preserve">
+    <value>Sebulan lalu</value>
+  </data>
+  <data name="PastWeekCode.Text" xml:space="preserve">
+    <value>Seminggu lalu</value>
+  </data>
+  <data name="PastYearCode.Text" xml:space="preserve">
+    <value>Setahun lalu</value>
+  </data>
+  <data name="RisingCode.Text" xml:space="preserve">
+    <value>Tenar</value>
+  </data>
+  <data name="TopCode.Text" xml:space="preserve">
+    <value>Terbaik</value>
+  </data>
+  <data name="AboutSCode.Text" xml:space="preserve">
+    <value>Tentang</value>
+  </data>
+  <data name="AllowedCode.Text" xml:space="preserve">
+    <value>Diperbolehkan</value>
+  </data>
+  <data name="CommentsSCode.Text" xml:space="preserve">
+    <value>Komentar</value>
+  </data>
+  <data name="DefaultcountTB.Text" xml:space="preserve">
+    <value>Jumlah default</value>
+  </data>
+  <data name="DefaultSortsTB.Text" xml:space="preserve">
+    <value>Sortir default</value>
+  </data>
+  <data name="DefaultsortTB.Text" xml:space="preserve">
+    <value>Sortir default</value>
+  </data>
+  <data name="DefaulttimesortTB.Text" xml:space="preserve">
+    <value>Sortir waktu default</value>
+  </data>
+  <data name="DeniedCode.Text" xml:space="preserve">
+    <value>Ditolak</value>
+  </data>
+  <data name="FlipViewCode.Text" xml:space="preserve">
+    <value>Flip View</value>
+  </data>
+  <data name="InboxbackgroundupdatingCode.Text" xml:space="preserve">
+    <value>Pengecekan kotak masuk sescara berkala</value>
+  </data>
+  <data name="LastUpdateCode.Text" xml:space="preserve">
+    <value>Perbaruan terakhir</value>
+  </data>
+  <data name="LockscreendesktopwallpaperupdatingCode.Text" xml:space="preserve">
+    <value>Mengubah layar kunci &amp; latar belakang</value>
+  </data>
+  <data name="NeverCode.Text" xml:space="preserve">
+    <value>Tidak pernah</value>
+  </data>
+  <data name="PrivacyPolicyCode.Text" xml:space="preserve">
+    <value>Kebijakan Pribadi</value>
+  </data>
+  <data name="ReddunTileInboxTB.Text" xml:space="preserve">
+    <value>Tambah tile Reddunt dan sinkronkan kotak masuk</value>
+  </data>
+  <data name="ShowEachMessageCBI.Content" xml:space="preserve">
+    <value>Tampilkan setiap pesan</value>
+  </data>
+  <data name="ShowOneTotalUnreadCBI.Content" xml:space="preserve">
+    <value>Tampilkan satu total tak terbaca</value>
+  </data>
+  <data name="SystemStateCode.Text" xml:space="preserve">
+    <value>Keadaan Sistem</value>
+  </data>
+  <data name="TermsandConditionsCode.Text" xml:space="preserve">
+    <value>Syarat dan Ketentuan</value>
+  </data>
+  <data name="AddButton.Label" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="RefreshButton.Label" xml:space="preserve">
+    <value>Muata ulang</value>
+  </data>
+  <data name="AccountCode.Text" xml:space="preserve">
+    <value>Akun</value>
+  </data>
+  <data name="DeleteComment" xml:space="preserve">
+    <value>hapus  |</value>
+  </data>
+  <data name="EditComment" xml:space="preserve">
+    <value>ralat</value>
+  </data>
+  <data name="HasGoldCode.MinorAccentText" xml:space="preserve">
+    <value>Punya Emas</value>
+  </data>
+  <data name="HidePost" xml:space="preserve">
+    <value>Sembunyikan posting</value>
+  </data>
+  <data name="MarkAsReadCode.Text" xml:space="preserve">
+    <value>tandai sudah dibaca</value>
+  </data>
+  <data name="MarkAsUnreadCode.Text" xml:space="preserve">
+    <value>tandai belum dibaca</value>
+  </data>
+  <data name="PivotComments.Header" xml:space="preserve">
+    <value>KOMENTAR</value>
+  </data>
+  <data name="PivotSubmitted.Header" xml:space="preserve">
+    <value>DIKIRIM</value>
+  </data>
+  <data name="PostsResultsCode" xml:space="preserve">
+    <value>Hasil Posting</value>
+  </data>
+  <data name="replyBTN.ButtonText" xml:space="preserve">
+    <value>balas</value>
+  </data>
+  <data name="ReplyComment" xml:space="preserve">
+    <value>balas</value>
+  </data>
+  <data name="SaveComment" xml:space="preserve">
+    <value>Simpan komentar</value>
+  </data>
+  <data name="SavePost" xml:space="preserve">
+    <value>Simpan posting</value>
+  </data>
+  <data name="SignInCode.Text" xml:space="preserve">
+    <value>Masuk</value>
+  </data>
+  <data name="SignOutCode.Text" xml:space="preserve">
+    <value>Keluar</value>
+  </data>
+  <data name="SubredditResultsCode" xml:space="preserve">
+    <value>Hasil Subreddit</value>
+  </data>
+  <data name="UnhidePost" xml:space="preserve">
+    <value>Tampilkan posting</value>
+  </data>
+  <data name="UnsaveComment" xml:space="preserve">
+    <value>Buang komentar</value>
+  </data>
+  <data name="UnsavePost" xml:space="preserve">
+    <value>Buang posting</value>
+  </data>
+  <data name="UserResultsCode" xml:space="preserve">
+    <value>Hasil Pengguna</value>
+  </data>
+  <data name="ViewInContext.ButtonText" xml:space="preserve">
+    <value>lihat komentar dengan konteks</value>
+  </data>
+  <data name="SendCode.Content" xml:space="preserve">
+    <value>Kirim</value>
+  </data>
+  <data name="UpdateCode.Content" xml:space="preserve">
+    <value>Perbarui</value>
+  </data>
+  <data name="SortTBS.Text" xml:space="preserve">
+    <value>Sortir:</value>
+  </data>
+  <data name="FeedbackHubLabel.Label" xml:space="preserve">
+    <value>Pusat Umpan Balik</value>
+  </data>
+  <data name="EnterFullScreenModeCode.Label" xml:space="preserve">
+    <value>Masuk Mode Layar Penuh</value>
+  </data>
+  <data name="ExitFullScreenModeCode.Label" xml:space="preserve">
+    <value>Keluar Mode Layar Penuh</value>
+  </data>
+  <data name="FullScreenModeXAML.Label" xml:space="preserve">
+    <value>Masuk Mode Layar Penuh</value>
+  </data>
+</root>
