@@ -602,9 +602,6 @@
     <PackageReference Include="UniversalMarkdownUWP.Managed">
       <Version>1.0.1</Version>
     </PackageReference>
-    <PackageReference Include="WhatsNew.UWP">
-      <Version>1.0.0</Version>
-    </PackageReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
