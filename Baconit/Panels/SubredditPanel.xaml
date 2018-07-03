@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:dataObjects="using:BaconBackend.DataObjects"
              xmlns:helperControl="using:Baconit.HelperControls"
+             xmlns:animations="using:Microsoft.Toolkit.Uwp.UI.Animations"
              xmlns:rs3="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 5)"
              RequestedTheme="Dark"
              d:DesignHeight="600"
@@ -12,7 +13,6 @@
              mc:Ignorable="d">
 
     <UserControl.Resources>
-
         <DataTemplate x:Key="SubredditItemItemDataTemplate" x:DataType="dataObjects:Post">
             <rs3:SwipeControl x:Name="swipeContainer">
                 <rs3:SwipeControl.RightItems>
@@ -87,7 +87,7 @@
                                    Foreground="{x:Bind TitleTextBrush, Mode=OneWay}"
                                    MaxLines="{x:Bind TitleMaxLines}"
                                    Text="{x:Bind Title}"
-                                   TextWrapping="Wrap" />
+                                   TextWrapping="Wrap" x:Name="PostTitle"  />
                         </Grid>
                     <StackPanel>
                         <TextBlock Margin="0,0,10,0"
@@ -158,6 +158,7 @@
             </Grid>
             </rs3:SwipeControl>
         </DataTemplate>
+         
     </UserControl.Resources>
     <Grid x:Name="SplitViewGrid">
         <!--  This holds all of the UI except the loading overlay  -->
@@ -270,12 +271,13 @@
                     <helperControl:EndDetectingListView x:Name="ui_postList"
                                                     Grid.Row="1"
                                                     IsTapEnabled="False"
-                                                    
                                                     ItemTemplate="{StaticResource SubredditItemItemDataTemplate}"
                                                     Padding="0,0,8,0"
                                                     SelectionChanged="PostList_SelectionChanged">
 
-                        >
+                        
+
+                        
                         <ListView.ItemContainerTransitions>
                             <TransitionCollection>
                                 <EntranceThemeTransition/>

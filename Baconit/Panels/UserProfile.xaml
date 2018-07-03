@@ -323,7 +323,6 @@
                                         </StackPanel>
                                     </DataTemplate>
                                 </helperControls:EndDetectingListView.HeaderTemplate>
-
                                 <ListView.ItemContainerTransitions>
                                     <TransitionCollection>
                                         <EntranceThemeTransition />
