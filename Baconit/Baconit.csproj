@@ -106,6 +106,10 @@
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <None Include="Baconit_TemporaryKey.pfx" />
+    <PRIResource Include="Strings\ms-MY\Resources.resw" />
+    <PRIResource Include="Strings\de-DE\Resources.resw" />
+    <PRIResource Include="Strings\ro-RO\Resources.resw" />
+    <PRIResource Include="Strings\pl\Resources.resw" />
     <PRIResource Include="Microsoft.UI.Xaml\Resources\en-US\Resources.resw" />
     <PRIResource Include="Strings\it-IT\Resources.resw" />
     <PRIResource Include="Strings\pt-BR\Resources.resw">
