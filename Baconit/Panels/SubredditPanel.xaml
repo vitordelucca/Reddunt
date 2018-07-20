@@ -37,7 +37,7 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="45" />
                     <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="Auto"  />
+                    <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
                 <FlyoutBase.AttachedFlyout>
                     <MenuFlyout >
@@ -81,7 +81,7 @@
                             Background="Transparent"
                             Orientation="Vertical"
                             Tapped="PostTitle_Tapped" VerticalAlignment="Center">
-                    <Grid>
+                    <Grid Width="240">
                             <TextBlock Margin="0,0,10,0"
                                    HorizontalAlignment="Left"
                                    Foreground="{x:Bind TitleTextBrush, Mode=OneWay}"
@@ -149,11 +149,11 @@
                             VerticalAlignment="Center" 
                             Background="{ThemeResource SystemControlBackgroundAccentBrush}"
                             Tapped="PostTitle_Tapped"
-                            Visibility="{x:Bind ImageVisibility, Mode=OneWay}" HorizontalAlignment="Stretch">
+                            Visibility="{x:Bind ImageVisibility, Mode=OneWay}">
                         <Image Width="70"
                            Margin="2"
-                           HorizontalAlignment="Stretch"
-                           Source="{x:Bind Image, Mode=OneWay}" />
+                           HorizontalAlignment="Right"
+                           Source="{x:Bind Image, Mode=OneWay}"/>
                     </StackPanel>
             </Grid>
             </rs3:SwipeControl>
