@@ -925,7 +925,7 @@ namespace Baconit.Panels
 
         Post s_post;
 
-        private void ShareLink_Invoked(SwipeItem sender, SwipeItemInvokedEventArgs args)
+        private void ShareLink_Invoked(Microsoft.UI.Xaml.Controls.SwipeItem sender, Microsoft.UI.Xaml.Controls.SwipeItemInvokedEventArgs args)
         {       
             s_post = args.SwipeControl.DataContext as Post;
             DataTransferManager.ShowShareUI();
@@ -950,7 +950,7 @@ namespace Baconit.Panels
 
         }
 
-            private void CopyPermalink_Invoked(SwipeItem sender, SwipeItemInvokedEventArgs args)
+            private void CopyPermalink_Invoked(Microsoft.UI.Xaml.Controls.SwipeItem sender, Microsoft.UI.Xaml.Controls.SwipeItemInvokedEventArgs args)
             { 
             // Get the post and copy the url into the clipboard
             Post post = args.SwipeControl.DataContext as Post;

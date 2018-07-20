@@ -7,6 +7,7 @@
              xmlns:helperControl="using:Baconit.HelperControls"
              xmlns:animations="using:Microsoft.Toolkit.Uwp.UI.Animations"
              xmlns:rs3="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 5)"
+             xmlns:winui="using:Microsoft.UI.Xaml.Controls"
              RequestedTheme="Dark"
              d:DesignHeight="600"
              d:DesignWidth="480"
@@ -14,22 +15,22 @@
 
     <UserControl.Resources>
         <DataTemplate x:Key="SubredditItemItemDataTemplate" x:DataType="dataObjects:Post">
-            <rs3:SwipeControl x:Name="swipeContainer">
-                <rs3:SwipeControl.RightItems>
-                    <rs3:SwipeItems Mode="Reveal">
-                        <rs3:SwipeItem Text="Share link" Foreground="White" Background="DarkGray"  Invoked="ShareLink_Invoked">
-                            <rs3:SwipeItem.IconSource>
-                                <rs3:SymbolIconSource Symbol="Share"/>
-                            </rs3:SwipeItem.IconSource>
-                        </rs3:SwipeItem>
+            <winui:SwipeControl x:Name="swipeContainer">
+                <winui:SwipeControl.RightItems>
+                    <winui:SwipeItems Mode="Reveal">
+                        <winui:SwipeItem Text="Share link" Foreground="White" Background="DarkGray"  Invoked="ShareLink_Invoked">
+                            <winui:SwipeItem.IconSource>
+                                <winui:SymbolIconSource Symbol="Share"/>
+                            </winui:SwipeItem.IconSource>
+                        </winui:SwipeItem>
 
-                        <rs3:SwipeItem Text="Copy permalink" Foreground="White" Background="{ThemeResource SystemAccentColor}" Invoked="CopyPermalink_Invoked" >
-                            <rs3:SwipeItem.IconSource>
-                                <rs3:SymbolIconSource Symbol="Copy"/>
-                            </rs3:SwipeItem.IconSource>
-                        </rs3:SwipeItem>
-                    </rs3:SwipeItems>
-                </rs3:SwipeControl.RightItems>
+                        <winui:SwipeItem Text="Copy permalink" Foreground="White" Background="{ThemeResource SystemAccentColor}" Invoked="CopyPermalink_Invoked" >
+                            <winui:SwipeItem.IconSource>
+                                <winui:SymbolIconSource Symbol="Copy"/>
+                            </winui:SwipeItem.IconSource>
+                        </winui:SwipeItem>
+                    </winui:SwipeItems>
+                </winui:SwipeControl.RightItems>
                 <Grid Margin="0,0,6,10"
                   Background="Transparent"
                   Holding="Post_Holding"
@@ -156,7 +157,7 @@
                            Source="{x:Bind Image, Mode=OneWay}"/>
                     </StackPanel>
             </Grid>
-            </rs3:SwipeControl>
+            </winui:SwipeControl>
         </DataTemplate>
          
     </UserControl.Resources>
