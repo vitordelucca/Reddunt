@@ -79,7 +79,7 @@ namespace Baconit
             // Register for events.
             this.Suspending += OnSuspending_Fired;
             this.Resuming += OnResuming_Fired;
-            Microsoft.UI.Xaml.Controls.DEPControlsClass.Initialize();
+            
         }
 
         /// <summary>

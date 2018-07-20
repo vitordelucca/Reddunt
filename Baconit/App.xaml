@@ -5,17 +5,10 @@
              RequestedTheme="Dark">
 
     <Application.Resources>
+       
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Microsoft.UI.Xaml\Package_Themes_Generic.xaml" />
-                <ResourceDictionary Source="Microsoft.UI.Xaml\Package_Themes_rs1_themeresources.xaml" />
-                <ResourceDictionary Source="Microsoft.UI.Xaml\Package_Themes_rs2_generic.xaml" />
-                <ResourceDictionary Source="Microsoft.UI.Xaml\Package_Themes_rs2_themeresources.xaml" />
-
-                <ResourceDictionary Source="Microsoft.UI.Xaml\Themes\Generic.xaml" />
-                <ResourceDictionary Source="Microsoft.UI.Xaml\Themes\rs1_themeresources.xaml" />
-                <ResourceDictionary Source="Microsoft.UI.Xaml\Themes\rs2_generic.xaml" />
-                <ResourceDictionary Source="Microsoft.UI.Xaml\Themes\rs2_themeresources.xaml" />
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls"/>
 
                 <ResourceDictionary Source="Themes\RedduntResource.xaml" />
 
