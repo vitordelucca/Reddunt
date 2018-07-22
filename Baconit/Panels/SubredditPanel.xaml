@@ -82,7 +82,7 @@
                             Background="Transparent"
                             Orientation="Vertical"
                             Tapped="PostTitle_Tapped" VerticalAlignment="Center">
-                    <Grid Width="240">
+                    <Grid Width="240" HorizontalAlignment="Left">
                             <TextBlock Margin="0,0,10,0"
                                    HorizontalAlignment="Left"
                                    Foreground="{x:Bind TitleTextBrush, Mode=OneWay}"
