@@ -7,9 +7,12 @@
              d:DesignHeight="300"
              d:DesignWidth="400"
              mc:Ignorable="d">
+    
 
     <Canvas>
+
         <Image x:Name="ui_mainImage" RenderTransformOrigin="0.5,0.5">
+
             <Image.RenderTransform>
                 <CompositeTransform x:Name="ui_mainImageCompositeTrans" />
             </Image.RenderTransform>

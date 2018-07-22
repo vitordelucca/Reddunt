@@ -20,7 +20,7 @@
                     Padding="12">
             <TextBlock VerticalAlignment="Bottom"
                        FontWeight="Bold"
-                       Text="Settings" x:Uid="SettingsTB" FontSize="40" TextWrapping="Wrap"/>
+                       Text="Settings" x:Uid="SettingsTB" FontSize="36" TextWrapping="Wrap"/>
         </StackPanel>
 
         <ListView x:Name="ui_settingsList"

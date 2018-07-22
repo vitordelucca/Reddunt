@@ -193,7 +193,7 @@
                         <StackPanel Grid.Column="1"
                                 HorizontalAlignment="Right"
                                 VerticalAlignment="Bottom"
-                                Background="{StaticResource BackgroundBehindBlur}"
+                                Background="Transparent"
                                 Orientation="Horizontal"
                                 Padding="12"
                                 Tapped="Sort_Tapped">
@@ -321,6 +321,7 @@
                             <AppBarButton Label="Enter Full Screen Mode" x:Uid="FullScreenModeXAML" Click="FullScreenMode_Clicked" x:Name="FullScreenAppBar"/>
                         </CommandBar.SecondaryCommands>
                     </CommandBar>
+                    
                 </Grid>
             </SplitView.Content>
 
@@ -330,5 +331,9 @@
                                             OnShouldClose="SubredditSideBar_OnShouldClose" />
             </SplitView.Pane>
         </SplitView>
+       
+
     </Grid>
+    
 </UserControl>
+    

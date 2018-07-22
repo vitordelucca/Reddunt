@@ -840,6 +840,7 @@ namespace Baconit.ContentPanels.Panels
                 DataPackage data = new DataPackage();
                 data.SetBitmap(ImageStream);
                 Clipboard.SetContent(data);
+                Clipboard.Flush();
             }
         }
 
@@ -852,6 +853,7 @@ namespace Baconit.ContentPanels.Panels
                 DataPackage data = new DataPackage();
                 data.SetWebLink(ximageuri);
                 Clipboard.SetContent(data);
+                Clipboard.Flush();
             }
         }
 
