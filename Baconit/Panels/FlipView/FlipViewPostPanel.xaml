@@ -418,10 +418,10 @@
                     BorderBrush="{x:Bind CommentBorderColor}"
                     BorderThickness="2,0,0,0"
                     Padding="0,10,15,10">
-
+                
                 <!--  Grid to hold the full and collapsed comment views  -->
                 <Grid>
-
+                    
                     <!--  The collapsed comment view  -->
                     <Grid Margin="-10"
                           Background="#01000000"

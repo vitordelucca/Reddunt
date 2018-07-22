@@ -82,13 +82,13 @@
                             Background="Transparent"
                             Orientation="Vertical"
                             Tapped="PostTitle_Tapped" VerticalAlignment="Center">
-                    <Grid Width="240" HorizontalAlignment="Left">
+                    <Grid Width="Auto" HorizontalAlignment="Left">
                             <TextBlock Margin="0,0,10,0"
                                    HorizontalAlignment="Left"
                                    Foreground="{x:Bind TitleTextBrush, Mode=OneWay}"
                                    MaxLines="{x:Bind TitleMaxLines}"
                                    Text="{x:Bind Title}"
-                                   TextWrapping="Wrap" x:Name="PostTitle"  />
+                                   TextWrapping="Wrap"  x:Name="PostTitle"  />
                         </Grid>
                     <StackPanel>
                         <TextBlock Margin="0,0,10,0"
