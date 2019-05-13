@@ -23,6 +23,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
@@ -82,7 +83,9 @@ namespace BaconBackend.Helpers
             {
                 Delegate d = (Delegate)(object)eh;
 
-                IEnumerable<Attribute> attributes = d.GetMethodInfo().DeclaringType.GetTypeInfo().GetCustomAttributes(typeof(CompilerGeneratedAttribute), false);
+                IEnumerable<Attribute> attributes = 
+                    d.GetMethodInfo().DeclaringType.GetTypeInfo().GetCustomAttributes(typeof(CompilerGeneratedAttribute), false).Cast<Attribute>();
+
                 int count = 0;
                 using (IEnumerator<Attribute> enumerator = attributes.GetEnumerator())
                 {
@@ -163,10 +166,10 @@ namespace BaconBackend.Helpers
                     ee.TargetMethod.Invoke(null, parameters);
                 }
 
-                if(m_betweenInvokesFunc != null)
+                if (m_betweenInvokesFunc != null)
                 {
                     // Call the function, if it returns false stop the callbacks.
-                    if(!m_betweenInvokesFunc.Invoke(e))
+                    if (!m_betweenInvokesFunc.Invoke(e))
                     {
                         break;
                     }
